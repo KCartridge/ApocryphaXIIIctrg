@@ -585,5 +585,5 @@
 	desc = "Corporate Security, a step above a mall cop. Better paid than a real cop."
 
 /obj/item/card/id/garou/spiral/employee
-	name = "endron_id"
+	name = "Endron Employee card"
 	desc = "Congratulations, Wagie."
