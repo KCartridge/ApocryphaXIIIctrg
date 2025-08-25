@@ -156,7 +156,7 @@
 
 	minimal_masquerade = 4
 	allowed_species = list("Werewolf")
-	allowed_tribes = list("Black Spiral Dancers","Ronin") // APOC EDIT CHANGE
+	allowed_tribes = list("Black Spiral Dancers", "Ronin") // APOC EDIT CHANGE
 
 	known_contacts = null
 
