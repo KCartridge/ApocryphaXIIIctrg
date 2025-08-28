@@ -191,7 +191,7 @@
 	custom_price = PAYCHECK_MEDIUM
 	age_restricted = TRUE
 	///for cigarette overlay
-	var/candy = FALSE
+	var/candy = TRUE
 	/// Does this cigarette packet come with a coupon attached?
 	var/spawn_coupon = TRUE
 	/// For VV'ing, set this to true if you want to force the coupon to give an omen
@@ -247,7 +247,7 @@
 
 /obj/item/storage/fancy/cigarettes/update_overlays()
 	. = ..()
-	if(fancy_open && contents.len)
+	if(fancy_open && contents.len && !(istype(src, /obj/item/storage/fancy/cigarettes/cigars))) // APOC EDIT CHANGE // Will now check if the box is a cigar box
 		. += "[icon_state]_open"
 		var/cig_position = 1
 		for(var/C in contents)
