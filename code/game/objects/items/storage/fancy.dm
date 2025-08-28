@@ -191,7 +191,7 @@
 	custom_price = PAYCHECK_MEDIUM
 	age_restricted = TRUE
 	///for cigarette overlay
-	var/candy = TRUE
+	var/candy = FALSE
 	/// Does this cigarette packet come with a coupon attached?
 	var/spawn_coupon = TRUE
 	/// For VV'ing, set this to true if you want to force the coupon to give an omen
