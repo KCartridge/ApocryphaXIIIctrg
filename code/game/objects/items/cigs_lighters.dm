@@ -187,7 +187,7 @@ CIGARETTE PACKETS ARE IN FANCY.DM
 	if(iscarbon(loc)) // Cannot light Cigarette if it's on your ear // APOC EDIT ADD
 		var/mob/living/carbon/C = loc
 		if(src == C.ears)
-			to_chat(C, "<span class='notice'>Maybe put it in your mouth first.</span>")
+			to_chat(C, span_notice("Maybe put it in your mouth first."))
 			return
 	if(lit)
 		return
