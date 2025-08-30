@@ -127,7 +127,7 @@
 					if(T.reagents && T.reagents.reagent_list.len)
 
 						for(var/datum/reagent/R in T.reagents.reagent_list)
-							T.reagents[R.name] = R.volume
+							T.reagents[R] = R.volume
 
 							// Get blood data from the blood reagent.
 							if(istype(R, /datum/reagent/blood))
@@ -143,7 +143,7 @@
 					if(T.reagents && T.reagents.reagent_list.len)
 
 						for(var/datum/reagent/R in T.reagents.reagent_list)
-							T.reagents[R.name] = R.volume
+							T.reagents[R] = R.volume
 
 							// Get blood data from the blood reagent.
 							if(istype(R, /datum/reagent/blood))
