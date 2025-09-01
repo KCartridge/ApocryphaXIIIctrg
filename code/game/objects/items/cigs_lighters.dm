@@ -318,7 +318,7 @@ CIGARETTE PACKETS ARE IN FANCY.DM
 			cig.attackby(src, user)
 		else
 			cig.light("<span class='notice'>[user] holds the [name] out for [M], and lights [M.p_their()] [cig.name].</span>")
-// APOC EDIT ADD START // Allows you to extinguish cigarettes on people, freak
+// APOC EDIT ADD START - Allows you to extinguish cigarettes on people, freak
 	if(lit && user.a_intent == INTENT_DISARM && !M.on_fire)
 		var/zone_selected = user.zone_selected
 		var/bodypart_cigextinguish
