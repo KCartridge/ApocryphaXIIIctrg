@@ -386,7 +386,7 @@ CIGARETTE PACKETS ARE IN FANCY.DM
 		qdel(src)
 	else
 		return ..()
-// APOC EDIT ADD END// Allows you to extinguish cigarettes on people
+// APOC EDIT ADD END
 
 
 /obj/item/clothing/mask/cigarette/fire_act(exposed_temperature, exposed_volume)
