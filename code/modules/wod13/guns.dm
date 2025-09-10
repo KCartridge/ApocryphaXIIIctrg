@@ -3,7 +3,7 @@
 	lefthand_file = 'code/modules/wod13/lefthand.dmi'
 	righthand_file = 'code/modules/wod13/righthand.dmi'
 	worn_icon = 'code/modules/wod13/worn.dmi'
-	onflooricon = 'code/modules/wod13/onfloor.dmi'
+	ONFLOOR_ICON_HELPER('code/modules/wod13/onfloor.dmi')
 	can_suppress = FALSE
 	recoil = 2
 
@@ -12,7 +12,7 @@
 	lefthand_file = 'code/modules/wod13/lefthand.dmi'
 	righthand_file = 'code/modules/wod13/righthand.dmi'
 	worn_icon = 'code/modules/wod13/worn.dmi'
-	onflooricon = 'code/modules/wod13/onfloor.dmi'
+	ONFLOOR_ICON_HELPER('code/modules/wod13/onfloor.dmi')
 	can_suppress = FALSE
 	recoil = 2
 
@@ -27,7 +27,7 @@
 	desc = "Feelin' lucky, punk?"
 	icon_state = "revolver"
 	inhand_icon_state = "revolver"
-	worn_icon_state = "revolver"
+	worn_icon_state = "gun"
 	mag_type = /obj/item/ammo_box/magazine/internal/cylinder/rev44
 	initial_caliber = CALIBER_44
 	fire_sound = 'code/modules/wod13/sounds/revolver.ogg'
@@ -108,7 +108,6 @@
 	desc = "a cheap Saturday night special revolver. Sometimes called a 'purse gun'. It takes 9mm rounds."
 	icon_state = "revolver_snub"
 	inhand_icon_state = "revolver_snub"
-	worn_icon_state = "revolver_snub"
 	mag_type = /obj/item/ammo_box/magazine/internal/cylinder/rev9mm
 	w_class = WEIGHT_CLASS_SMALL
 	initial_caliber = CALIBER_9MM
@@ -128,7 +127,7 @@
 	lefthand_file = 'code/modules/wod13/lefthand.dmi'
 	righthand_file = 'code/modules/wod13/righthand.dmi'
 	worn_icon = 'code/modules/wod13/worn.dmi'
-	onflooricon = 'code/modules/wod13/onfloor.dmi'
+	ONFLOOR_ICON_HELPER('code/modules/wod13/onfloor.dmi')
 	icon_state = "deagle"
 	ammo_type = /obj/item/ammo_casing/vampire/c44
 	caliber = CALIBER_44
@@ -140,7 +139,6 @@
 	desc = "A powerful .44 handgun."
 	icon_state = "deagle"
 	inhand_icon_state = "deagle"
-	worn_icon_state = "deagle"
 	w_class = WEIGHT_CLASS_NORMAL
 	mag_type = /obj/item/ammo_box/magazine/m44
 	recoil = 3
@@ -167,7 +165,7 @@
 	lefthand_file = 'code/modules/wod13/lefthand.dmi'
 	righthand_file = 'code/modules/wod13/righthand.dmi'
 	worn_icon = 'code/modules/wod13/worn.dmi'
-	onflooricon = 'code/modules/wod13/onfloor.dmi'
+	ONFLOOR_ICON_HELPER('code/modules/wod13/onfloor.dmi')
 	icon_state = "deagle"
 	ammo_type = /obj/item/ammo_casing/vampire/c50
 	caliber = CALIBER_50
@@ -179,7 +177,6 @@
 	desc = "An extremely powerful, and rare, handcannon."
 	icon_state = "deagle50"
 	inhand_icon_state = "deagle"
-	worn_icon_state = "deagle"
 	weapon_weight = WEAPON_HEAVY // No dual-wielding .50 cals.
 	mag_type = /obj/item/ammo_box/magazine/m50
 	fire_sound_volume = 125 //MY EARS
@@ -190,7 +187,7 @@
 //	lefthand_file = 'code/modules/wod13/lefthand.dmi'
 //	righthand_file = 'code/modules/wod13/righthand.dmi'
 	worn_icon = 'code/modules/wod13/worn.dmi'
-	onflooricon = 'code/modules/wod13/onfloor.dmi'
+	ONFLOOR_ICON_HELPER('code/modules/wod13/onfloor.dmi')
 	icon_state = "m1911"
 	ammo_type = /obj/item/ammo_casing/vampire/c45acp
 	caliber = CALIBER_45
@@ -202,7 +199,7 @@
 	desc = "A reliable .45 ACP handgun."
 	icon_state = "m1911"
 	inhand_icon_state = "m1911"
-	worn_icon_state = "m1911"
+	worn_icon_state = "gun"
 	w_class = WEIGHT_CLASS_SMALL
 	mag_type = /obj/item/ammo_box/magazine/vamp45acp
 	burst_size = 1
@@ -228,7 +225,7 @@
 //	lefthand_file = 'code/modules/wod13/lefthand.dmi'
 //	righthand_file = 'code/modules/wod13/righthand.dmi'
 	worn_icon = 'code/modules/wod13/worn.dmi'
-	onflooricon = 'code/modules/wod13/onfloor.dmi'
+	ONFLOOR_ICON_HELPER('code/modules/wod13/onfloor.dmi')
 	icon_state = "glock19"
 	ammo_type = /obj/item/ammo_casing/vampire/c9mm
 	caliber = CALIBER_9MM
@@ -240,7 +237,6 @@
 	desc = "Very fast 9mm handgun."
 	icon_state = "glock19"
 	inhand_icon_state = "glock19"
-	worn_icon_state = "glock19"
 	w_class = WEIGHT_CLASS_SMALL
 	mag_type = /obj/item/ammo_box/magazine/glock9mm
 	burst_size = 3
@@ -266,7 +262,7 @@
 //	lefthand_file = 'code/modules/wod13/lefthand.dmi'
 //	righthand_file = 'code/modules/wod13/righthand.dmi'
 	worn_icon = 'code/modules/wod13/worn.dmi'
-	onflooricon = 'code/modules/wod13/onfloor.dmi'
+	ONFLOOR_ICON_HELPER('code/modules/wod13/onfloor.dmi')
 	icon_state = "glock21"
 	ammo_type = /obj/item/ammo_casing/vampire/c45acp
 	caliber = CALIBER_45
@@ -278,7 +274,6 @@
 	desc = "Very fast 45 ACP handgun."
 	icon_state = "glock19"
 	inhand_icon_state = "glock19"
-	worn_icon_state = "glock19"
 	w_class = WEIGHT_CLASS_SMALL
 	mag_type = /obj/item/ammo_box/magazine/glock45acp
 	burst_size = 3
@@ -303,7 +298,6 @@
 	desc = "A 9mm pistol favored among law enforcement and criminal alike due to it's use in action movies. Often, it is wielded in pairs."
 	icon_state = "beretta"
 	inhand_icon_state = "beretta"
-	worn_icon_state = "beretta"
 	w_class = WEIGHT_CLASS_SMALL
 	mag_type = /obj/item/ammo_box/magazine/semi9mm
 	burst_size = 1
@@ -329,7 +323,6 @@
 	desc = "A handgun that has been heavily decorated and customized. The improvements seem almost supernaturally good, you feel like the engravings have given you a tactical advantage."
 	icon_state = "beretta_toreador"
 	inhand_icon_state = "beretta_toreador"
-	worn_icon_state = "beretta"
 	projectile_damage_multiplier = 2.5
 	fire_sound_volume = 110
 	cost = 666
@@ -340,7 +333,7 @@
 //	lefthand_file = 'code/modules/wod13/lefthand.dmi'
 //	righthand_file = 'code/modules/wod13/righthand.dmi'
 	worn_icon = 'code/modules/wod13/worn.dmi'
-	onflooricon = 'code/modules/wod13/onfloor.dmi'
+	ONFLOOR_ICON_HELPER('code/modules/wod13/onfloor.dmi')
 	icon_state = "semi9mm"
 	ammo_type = /obj/item/ammo_casing/vampire/c9mm
 	caliber = CALIBER_9MM
@@ -357,7 +350,7 @@
 	lefthand_file = 'code/modules/wod13/lefthand.dmi'
 	righthand_file = 'code/modules/wod13/righthand.dmi'
 	worn_icon = 'code/modules/wod13/worn.dmi'
-	onflooricon = 'code/modules/wod13/onfloor.dmi'
+	ONFLOOR_ICON_HELPER('code/modules/wod13/onfloor.dmi')
 	icon_state = "uzi"
 	ammo_type = /obj/item/ammo_casing/vampire/c9mm
 	caliber = CALIBER_9MM
@@ -369,7 +362,6 @@
 	desc = "A lightweight, burst-fire submachine gun, for when you really want someone dead. Uses 9mm rounds."
 	icon_state = "uzi"
 	inhand_icon_state = "uzi"
-	worn_icon_state = "uzi"
 	mag_type = /obj/item/ammo_box/magazine/vamp9mm
 	burst_size = 5
 	spread = 11
@@ -387,7 +379,7 @@
 //	lefthand_file = 'code/modules/wod13/lefthand.dmi'
 //	righthand_file = 'code/modules/wod13/righthand.dmi'
 	worn_icon = 'code/modules/wod13/worn.dmi'
-	onflooricon = 'code/modules/wod13/onfloor.dmi'
+	ONFLOOR_ICON_HELPER('code/modules/wod13/onfloor.dmi')
 	icon_state = "mp5"
 	ammo_type = /obj/item/ammo_casing/vampire/c9mm
 	caliber = CALIBER_9MM
@@ -399,8 +391,8 @@
 	desc = "A lightweight, burst-fire submachine gun, for when you really want to do some dirty cool job. Uses 9mm rounds."
 	icon_state = "mp5"
 	icon = 'code/modules/wod13/48x32weapons.dmi'
+	ONFLOOR_ICON_HELPER('code/modules/wod13/onfloor.dmi')
 	inhand_icon_state = "mp5"
-	worn_icon_state = "mp5"
 	mag_type = /obj/item/ammo_box/magazine/vamp9mp5
 	burst_size = 4
 	spread = 4
@@ -417,7 +409,7 @@
 //	lefthand_file = 'code/modules/wod13/lefthand.dmi'
 //	righthand_file = 'code/modules/wod13/righthand.dmi'
 	worn_icon = 'code/modules/wod13/worn.dmi'
-	onflooricon = 'code/modules/wod13/onfloor.dmi'
+	ONFLOOR_ICON_HELPER('code/modules/wod13/onfloor.dmi')
 	icon_state = "mp7"
 	ammo_type = /obj/item/ammo_casing/vampire/c46mm
 	caliber = CALIBER_46
@@ -429,8 +421,8 @@
 	desc = "A lightweight, burst-fire submachine gun. Uses 4.6mm."
 	icon_state = "mp7"
 	icon = 'code/modules/wod13/48x32weapons.dmi'
+	ONFLOOR_ICON_HELPER('code/modules/wod13/onfloor.dmi')
 	inhand_icon_state = "mp7"
-	worn_icon_state = "mp7"
 	mag_type = /obj/item/ammo_box/magazine/vamp46mp7
 	burst_size = 4
 	spread = 2
@@ -449,7 +441,7 @@
 	lefthand_file = 'code/modules/wod13/lefthand.dmi'
 	righthand_file = 'code/modules/wod13/righthand.dmi'
 	worn_icon = 'code/modules/wod13/worn.dmi'
-	onflooricon = 'code/modules/wod13/onfloor.dmi'
+	ONFLOOR_ICON_HELPER('code/modules/wod13/onfloor.dmi')
 	icon_state = "rifle"
 	ammo_type = /obj/item/ammo_casing/vampire/c556mm
 	caliber = CALIBER_556
@@ -465,6 +457,7 @@
 	name = "\improper AR-15 Carbine"
 	desc = "A two-round burst 5.56 toploading carbine, designated 'AR-15'."
 	icon = 'code/modules/wod13/48x32weapons.dmi'
+	ONFLOOR_ICON_HELPER('code/modules/wod13/onfloor.dmi')
 	icon_state = "rifle"
 	inhand_icon_state = "rifle"
 	worn_icon_state = "rifle"
@@ -486,6 +479,7 @@
 	name = "hunting rifle"
 	desc = "A semi-automatic hunting rifle, just like what your dad used to shoot. If your dad didn't go out to get milk, anyways."
 	icon = 'code/modules/wod13/48x32weapons.dmi'
+	ONFLOOR_ICON_HELPER('code/modules/wod13/onfloor.dmi')
 	icon_state = "huntrifle"
 	inhand_icon_state = "huntrifle"
 	worn_icon_state = "huntrifle"
@@ -509,7 +503,7 @@
 //	lefthand_file = 'code/modules/wod13/lefthand.dmi'
 //	righthand_file = 'code/modules/wod13/righthand.dmi'
 	worn_icon = 'code/modules/wod13/worn.dmi'
-	onflooricon = 'code/modules/wod13/onfloor.dmi'
+	ONFLOOR_ICON_HELPER('code/modules/wod13/onfloor.dmi')
 	icon_state = "ak"
 	ammo_type = /obj/item/ammo_casing/vampire/c545mm
 	caliber = CALIBER_545
@@ -520,9 +514,9 @@
 	name = "\improper Kalashnikov's Automatic Rifle 74"
 	desc = "Pretty old, but also easy fireable and cleanable by vodka.Uses 5.45 rounds."
 	icon = 'code/modules/wod13/48x32weapons.dmi'
+	ONFLOOR_ICON_HELPER('code/modules/wod13/onfloor.dmi')
 	icon_state = "ak74"
 	inhand_icon_state = "ak74"
-	worn_icon_state = "ak74"
 	w_class = WEIGHT_CLASS_BULKY
 	weapon_weight = WEAPON_MEDIUM
 	mag_type = /obj/item/ammo_box/magazine/vamp545
@@ -544,7 +538,7 @@
 	lefthand_file = 'code/modules/wod13/lefthand.dmi'
 	righthand_file = 'code/modules/wod13/righthand.dmi'
 	worn_icon = 'code/modules/wod13/worn.dmi'
-	onflooricon = 'code/modules/wod13/onfloor.dmi'
+	ONFLOOR_ICON_HELPER('code/modules/wod13/onfloor.dmi')
 	icon_state = "aug"
 	ammo_type = /obj/item/ammo_casing/vampire/c556mm
 	caliber = CALIBER_556
@@ -555,9 +549,9 @@
 	name = "\improper Steyr AUG-77"
 	desc = "A three-round burst 5.56 bullpup design, designated 'Steyr AUG-77'."
 	icon = 'code/modules/wod13/48x32weapons.dmi'
+	ONFLOOR_ICON_HELPER('code/modules/wod13/onfloor.dmi')
 	icon_state = "aug"
 	inhand_icon_state = "aug"
-	worn_icon_state = "aug"
 	w_class = WEIGHT_CLASS_BULKY
 	weapon_weight = WEAPON_MEDIUM //Bullpup makes it easy to fire with one hand, but we still don't want these dual-wielded
 	mag_type = /obj/item/ammo_box/magazine/vampaug
@@ -580,7 +574,7 @@
 //	lefthand_file = 'code/modules/wod13/lefthand.dmi'
 //	righthand_file = 'code/modules/wod13/righthand.dmi'
 	worn_icon = 'code/modules/wod13/worn.dmi'
-	onflooricon = 'code/modules/wod13/onfloor.dmi'
+	ONFLOOR_ICON_HELPER('code/modules/wod13/onfloor.dmi')
 	ammo_type = /obj/item/ammo_casing/vampire/c45acp
 	caliber = CALIBER_45
 	max_ammo = 50
@@ -590,9 +584,9 @@
 	name = "\improper Thompson Submachine Gun"
 	desc = "\"Mamma-mia, Mercurio! Yu shot 'im in da head, he can't speek now! Yu guappo, Mercurio, yu naturale guappo!\""
 	icon = 'code/modules/wod13/48x32weapons.dmi'
+	ONFLOOR_ICON_HELPER('code/modules/wod13/onfloor.dmi')
 	icon_state = "thompson"
 	inhand_icon_state = "thompson"
-	worn_icon_state = "thompson"
 	w_class = WEIGHT_CLASS_NORMAL
 	weapon_weight = WEAPON_MEDIUM
 	mag_type = /obj/item/ammo_box/magazine/vampthompson
@@ -620,6 +614,7 @@
 	name = "sniper rifle"
 	desc = "A long ranged weapon that does significant damage. No, you can't quickscope."
 	icon = 'code/modules/wod13/48x32weapons.dmi'
+	ONFLOOR_ICON_HELPER('code/modules/wod13/onfloor.dmi')
 	icon_state = "sniper"
 	inhand_icon_state = "sniper"
 	worn_icon_state = "sniper"
@@ -652,6 +647,7 @@
 	name = "\improper HK PSG1"
 	desc = "A semi-automatic rifle that shoots 7.62 NATO and packs a solid punch, Most often used by Police Snipers '."
 	icon = 'code/modules/wod13/48x32weapons.dmi'
+	ONFLOOR_ICON_HELPER('code/modules/wod13/onfloor.dmi')
 	icon_state = "PSG1"
 	inhand_icon_state = "PSG1"
 	worn_icon_state = "PSG1"
@@ -680,7 +676,7 @@
 	//lefthand_file = 'code/modules/wod13/lefthand.dmi'
 	//righthand_file = 'code/modules/wod13/righthand.dmi'
 	worn_icon = 'code/modules/wod13/worn.dmi'
-	onflooricon = 'code/modules/wod13/onfloor.dmi'
+	ONFLOOR_ICON_HELPER('code/modules/wod13/onfloor.dmi')
 	icon_state = "PSG1"
 	ammo_type = /obj/item/ammo_casing/vampire/c762x51mm
 	caliber = CALIBER_762
@@ -703,7 +699,7 @@
 	lefthand_file = 'code/modules/wod13/lefthand.dmi'
 	righthand_file = 'code/modules/wod13/righthand.dmi'
 	worn_icon = 'code/modules/wod13/worn.dmi'
-	onflooricon = 'code/modules/wod13/onfloor.dmi'
+	ONFLOOR_ICON_HELPER('code/modules/wod13/onfloor.dmi')
 	w_class = WEIGHT_CLASS_BULKY
 	weapon_weight = WEAPON_MEDIUM
 	icon_state = "pomp"
@@ -725,7 +721,7 @@
 	lefthand_file = 'code/modules/wod13/lefthand.dmi'
 	righthand_file = 'code/modules/wod13/righthand.dmi'
 	worn_icon = 'code/modules/wod13/worn.dmi'
-	onflooricon = 'code/modules/wod13/onfloor.dmi'
+	ONFLOOR_ICON_HELPER('code/modules/wod13/onfloor.dmi')
 	icon_state = "spas15"
 	ammo_type = /obj/item/ammo_casing/vampire/c12g/buck
 	caliber = CALIBER_12G
@@ -736,6 +732,7 @@
 	name = "\improper Jaegerspas-XV"
 	desc = "A semi-automatic shotgun. It looks more like an assault rifle than a shotgun and fires at a deadly pace."
 	icon = 'code/modules/wod13/48x32weapons.dmi'
+	ONFLOOR_ICON_HELPER('code/modules/wod13/onfloor.dmi')
 	icon_state = "spas15"
 	inhand_icon_state = "spas15"
 	worn_icon_state = "rifle"
@@ -761,6 +758,7 @@
 	icon = 'code/modules/wod13/48x32weapons.dmi'
 	lefthand_file = 'code/modules/wod13/lefthand.dmi'
 	righthand_file = 'code/modules/wod13/righthand.dmi'
+  ONFLOOR_ICON_HELPER('code/modules/wod13/onfloor.dmi')
 	onflooricon = 'code/modules/wod13/onfloor.dmi'
 	worn_icon_state = "crossbow0"
 	icon_state = "crossbow0"
@@ -787,7 +785,7 @@
 	caliber = CALIBER_FOAM
 	icon_state = "arrow"
 	icon = 'code/modules/wod13/ammo.dmi'
-	onflooricon = 'code/modules/wod13/onfloor.dmi'
+	ONFLOOR_ICON_HELPER('code/modules/wod13/onfloor.dmi')
 	harmful = TRUE
 
 /datum/crafting_recipe/molotov
@@ -803,7 +801,7 @@
 	desc = "Well fire weapon."
 	icon_state = "molotov"
 	icon = 'code/modules/wod13/weapons.dmi'
-	onflooricon = 'code/modules/wod13/onfloor.dmi'
+	ONFLOOR_ICON_HELPER('code/modules/wod13/onfloor.dmi')
 	w_class = WEIGHT_CLASS_SMALL
 	var/active = FALSE
 	masquerade_violating = TRUE
@@ -830,7 +828,7 @@
 	desc = "Well fire weapon."
 	icon_state = "flamethrower4"
 	icon = 'code/modules/wod13/weapons.dmi'
-	onflooricon = 'code/modules/wod13/onfloor.dmi'
+	ONFLOOR_ICON_HELPER('code/modules/wod13/onfloor.dmi')
 	lefthand_file = 'code/modules/wod13/lefthand.dmi'
 	righthand_file = 'code/modules/wod13/righthand.dmi'
 	worn_icon_state = "flamethrower4"
