@@ -758,7 +758,7 @@
 	icon = 'code/modules/wod13/48x32weapons.dmi'
 	lefthand_file = 'code/modules/wod13/lefthand.dmi'
 	righthand_file = 'code/modules/wod13/righthand.dmi'
-  ONFLOOR_ICON_HELPER('code/modules/wod13/onfloor.dmi')
+	ONFLOOR_ICON_HELPER('code/modules/wod13/onfloor.dmi')
 	onflooricon = 'code/modules/wod13/onfloor.dmi'
 	worn_icon_state = "crossbow0"
 	icon_state = "crossbow0"
