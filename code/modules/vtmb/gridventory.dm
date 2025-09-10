@@ -895,8 +895,12 @@ VENTORY!
 	grid_width = 2 GRID_BOXES
 	grid_height = 5 GRID_BOXES
 
+/obj/item/melee/skateboard // APOC ADD
+	grid_width = 4 GRID_BOXES
+	grid_height = 2 GRID_BOXES
+
 /obj/item/melee/vampirearms/baseball
-	grid_width = 3 GRID_BOXES
+	grid_width = 4 GRID_BOXES
 	grid_height = 1 GRID_BOXES
 
 /obj/item/melee/vampirearms/baseball/hand
@@ -928,7 +932,7 @@ VENTORY!
 	grid_height = 1 GRID_BOXES
 
 /obj/item/melee/vampirearms/katana/kosa
-	grid_width = 3 GRID_BOXES
+	grid_width = 7 GRID_BOXES
 	grid_height = 2 GRID_BOXES
 
 /obj/item/melee/vampirearms/eguitar
@@ -1060,7 +1064,7 @@ VENTORY!
 	grid_height = 2 GRID_BOXES
 
 /obj/item/gun/ballistic/automatic/vampire/sniper
-	grid_width = 4 GRID_BOXES
+	grid_width = 8 GRID_BOXES // APOC EDIT // Doubles the length to be in line with the other rifles
 	grid_height = 2 GRID_BOXES
 
 /obj/item/gun/ballistic/shotgun/vampire
