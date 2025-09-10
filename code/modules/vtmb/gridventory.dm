@@ -992,7 +992,7 @@ VENTORY!
 	grid_height = 2 GRID_BOXES
 
 /obj/item/gun/ballistic/automatic/vampire/mp5
-	grid_width = 2 GRID_BOXES
+	grid_width = 3 GRID_BOXES
 	grid_height = 2 GRID_BOXES
 
 /obj/item/ammo_box/magazine/m44
