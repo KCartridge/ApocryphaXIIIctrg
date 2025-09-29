@@ -432,6 +432,19 @@
 	if(!HAS_TRAIT(src, TRAIT_NEARSIGHT))
 		overlay_fullscreen("nearsighted", /atom/movable/screen/fullscreen/impaired, 1)
 	ADD_TRAIT(src, TRAIT_NEARSIGHT, source)
+/*
+/mob/living/carbon/proc/become_brighteyes(source)
+	if(!HAS_TRAIT(src, TRAIT_BRIGHTEYES))
+		var/mutable_appearance/bright_eyes
+		var/skipface = (wear_mask && (wear_mask.flags_inv & HIDEFACE)) || (head && (head.flags_inv & HIDEFACE))
+		if((!skipface && !bright_eyes))
+			bright_eyes = mutable_appearance('icons/mob/human_face.dmi', "eyes")
+			bright_eyes.plane = ABOVE_LIGHTING_PLANE
+			bright_eyes.layer = ABOVE_LIGHTING_LAYER
+		add_overlay(bright_eyes)
+
+	ADD_TRAIT(src, TRAIT_BRIGHTEYES, source)
+*/
 
 /mob/living/proc/cure_husk(source)
 	REMOVE_TRAIT(src, TRAIT_HUSK, source)
