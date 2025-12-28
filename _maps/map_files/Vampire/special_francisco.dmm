@@ -4956,7 +4956,7 @@
 /area/vtm/voivodate)
 "cXi" = (
 /obj/structure/vampdoor/reinf{
-	lock_id = "radio";
+	lock_id = "nightwolf";
 	locked = 1;
 	lockpick_difficulty = 18;
 	dir = 4
@@ -6765,7 +6765,7 @@
 /obj/effect/turf_decal/siding/thinplating/dark,
 /obj/structure/vampdoor/glass/nightwolf{
 	name = "Nightwolf Radio";
-	lock_id = "radio"
+	lock_id = "nightwolf"
 	},
 /obj/effect/landmark/npcwall,
 /turf/open/floor/plating/sidewalk/poor,
@@ -10399,7 +10399,7 @@
 /area/vtm/interior)
 "glJ" = (
 /obj/structure/vampdoor/reinf{
-	lock_id = "radio";
+	lock_id = "nightwolf";
 	locked = 1;
 	lockpick_difficulty = 18;
 	name = "Radio armory door";
@@ -10512,7 +10512,7 @@
 	},
 /obj/structure/vampdoor/wood{
 	lockpick_difficulty = 8;
-	lock_id = "radio"
+	lock_id = "nightwolf"
 	},
 /turf/open/floor/plating/parquetry,
 /area/vtm/interior/radio)
@@ -19238,7 +19238,7 @@
 /area/space)
 "lMa" = (
 /obj/structure/vampdoor/reinf{
-	lock_id = "radio";
+	lock_id = "nightwolf";
 	locked = 1;
 	lockpick_difficulty = 18;
 	name = "\improper door"
@@ -21659,7 +21659,7 @@
 /area/vtm/pacificheights)
 "neB" = (
 /obj/structure/vampdoor/reinf{
-	lock_id = "radio";
+	lock_id = "nightwolf";
 	locked = 1;
 	lockpick_difficulty = 18;
 	name = "Radio supply door";
@@ -24688,9 +24688,9 @@
 /obj/effect/turf_decal/bordur{
 	dir = 8
 	},
-/obj/structure/vampdoor/wood/apartment{
-	lock_id = "towerapartments_1";
-	dir = 4
+/obj/structure/vampdoor/wood{
+	dir = 4;
+	lock_id = "towerapartments_1"
 	},
 /turf/open/floor/plating/vampplating/stone,
 /area/vtm/interior/ghetto)
@@ -27286,7 +27286,7 @@
 "qvV" = (
 /obj/structure/vampdoor/wood{
 	dir = 4;
-	lock_id = "radio"
+	lock_id = "nightwolf"
 	},
 /obj/effect/turf_decal/siding/white{
 	dir = 4;
@@ -29762,7 +29762,7 @@
 	dir = 8
 	},
 /obj/structure/vampdoor/reinf{
-	lock_id = "radio";
+	lock_id = "nightwolf";
 	locked = 1;
 	lockpick_difficulty = 18;
 	name = "Radio server door";
@@ -30188,7 +30188,7 @@
 	},
 /obj/structure/vampdoor/wood{
 	dir = 4;
-	lock_id = "radio"
+	lock_id = "nightwolf"
 	},
 /turf/open/floor/plating/parquetry,
 /area/vtm/interior/radio)
@@ -35256,9 +35256,9 @@
 /obj/effect/turf_decal/bordur{
 	dir = 8
 	},
-/obj/structure/vampdoor/wood/apartment{
-	lock_id = "towerapartments_2";
-	dir = 4
+/obj/structure/vampdoor/wood{
+	dir = 4;
+	lock_id = "towerapartments_2"
 	},
 /turf/open/floor/plating/vampplating/stone,
 /area/vtm/interior/ghetto)
@@ -39452,7 +39452,7 @@
 /area/vtm/interior/millennium_tower/f4)
 "xFO" = (
 /obj/structure/vampdoor/reinf{
-	lock_id = "radio";
+	lock_id = "nightwolf";
 	locked = 1;
 	lockpick_difficulty = 18;
 	name = "Radio server door"

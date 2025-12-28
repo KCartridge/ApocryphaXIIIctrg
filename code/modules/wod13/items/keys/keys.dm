@@ -403,10 +403,10 @@
 	)
 
 //GAROU KEYS
-/obj/item/vamp/keys/techstore
-	name = "Tech Store keys"
+/obj/item/vamp/keys/nightwolf
+	name = "Nightwolf keys"
 	accesslocks = list(
-		"wolftech"
+		"nightwolf"
 	)
 	color = "#466a72"
 
@@ -497,13 +497,6 @@
 	accesslocks = list(
 		"pizza"
 	)
-
-/obj/item/vamp/keys/radio
-	name = "nightwolf radio keys"
-	accesslocks = list(
-		"radio"
-	)
-	color = "#466a72"
 
 /obj/item/vamp/keys/tattoo
 	name = "tattoo parlor keys"
