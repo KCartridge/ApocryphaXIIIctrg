@@ -531,7 +531,7 @@ LOW_WALL_HELPER(vampwall/wood)
 		if(istype(get_area(src), /area/vtm))
 			var/area/vtm/V = get_area(src)
 			if(V.upper)
-				icon_state = "[initial(icon_state)]-snow"
+				icon_state=  "[initial(icon_state)]-snow"
 	. = ..()
 
 /obj/effect/turf_decal/bordur/inverse
