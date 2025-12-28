@@ -483,12 +483,14 @@
 	accesslocks = list(
 		"veterinarian"
 	)
+	color = "#2c92ff"
 
 /obj/item/vamp/keys/coffee
 	name = "coffee shop keys"
 	accesslocks = list(
 		"coffee"
 	)
+	color = "#ec8f3e"
 
 /obj/item/vamp/keys/pizza
 	name = "pizzaria keys"
@@ -501,6 +503,7 @@
 	accesslocks = list(
 		"radio"
 	)
+	color = "#466a72"
 
 /obj/item/vamp/keys/tattoo
 	name = "tattoo parlor keys"
@@ -513,4 +516,5 @@
 	accesslocks = list(
 		"ocean"
 	)
+
 
