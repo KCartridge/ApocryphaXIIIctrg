@@ -1144,7 +1144,7 @@
 /area/vtm/forest)
 "kn" = (
 /obj/transfer_point_vamp/forest/north/three,
-/turf/open/floor/plating/vampgrass,
+/turf/open/floor/plating/vampdirt,
 /area/vtm/forest)
 "ko" = (
 /obj/item/organ/stomach/bone,
@@ -1719,7 +1719,10 @@
 /area/vtm/forest/sept)
 "pK" = (
 /obj/transfer_point_vamp/forest/north/four,
-/turf/open/floor/plating/vampgrass,
+/obj/effect/turf_decal/apoc/vampgrass/corner{
+	dir = 1
+	},
+/turf/open/floor/plating/vampdirt,
 /area/vtm/forest)
 "pL" = (
 /obj/effect/turf_decal/apoc/vampbeach{
@@ -2707,7 +2710,7 @@
 /area/vtm/forest/interior)
 "xL" = (
 /obj/transfer_point_vamp/forest/north/two,
-/turf/open/floor/plating/vampgrass,
+/turf/open/floor/plating/vampdirt,
 /area/vtm/forest)
 "xP" = (
 /obj/effect/turf_decal/apoc/vampgrass{
@@ -3544,7 +3547,8 @@
 /area/vtm/forest/interior/cave)
 "Fu" = (
 /obj/transfer_point_vamp/forest/north,
-/turf/open/floor/plating/vampgrass,
+/obj/effect/turf_decal/apoc/vampgrass/corner,
+/turf/open/floor/plating/vampdirt,
 /area/vtm/forest)
 "Fz" = (
 /obj/effect/turf_decal/apoc/cave{
@@ -8261,8 +8265,8 @@ dy
 dy
 dy
 pi
-jd
-Qh
+SV
+jX
 Fu
 EH
 Vj
@@ -8459,8 +8463,8 @@ dy
 Bk
 dy
 pi
-jd
-Qh
+je
+je
 xL
 EH
 Vj
@@ -8657,8 +8661,8 @@ dy
 Qh
 dy
 pi
-vy
-Qh
+iV
+je
 kn
 EH
 Vj
@@ -8855,8 +8859,8 @@ dy
 dy
 GL
 je
-jd
-Qh
+DG
+PS
 pK
 EH
 Vj
