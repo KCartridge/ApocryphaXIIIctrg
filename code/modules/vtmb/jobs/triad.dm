@@ -1,10 +1,11 @@
+
 /datum/job/vamp/triad_soldier
-	title = "Ocean 76er"
-	department_head = list("the Ocean 76 gang bosses")
+	title = "Triad Soldier"
+	department_head = list("Triad Leadership")
 	faction = "Vampire"
-	total_positions = 6
-	spawn_positions = 6
-	supervisors = "the Arch"
+	total_positions = 8
+	spawn_positions = 8
+	supervisors = " the Triads"
 	selection_color = "#bb9d3d"
 
 	outfit = /datum/outfit/job/triad_soldier
@@ -16,10 +17,10 @@
 	display_order = JOB_DISPLAY_ORDER_TRIAD_GANGSTER
 	exp_type_department = EXP_TYPE_GANG
 
-	allowed_species = SPECIES_ALL
+	allowed_species = list("Human", "Werewolf", "Kuei-Jin")
 	minimal_generation = 13
 
-	duty = "This city should belong to those who live in it. Your family in the 76 got your back, you should have theirs."
+	duty = "Make money, do drugs, fight law. Your hideout is the laundromat in Chinatown."
 	experience_addition = 10
 	minimal_masquerade = 0
 
@@ -31,7 +32,7 @@
 		shoes = /obj/item/clothing/shoes/vampire/heels
 
 /datum/outfit/job/triad_soldier
-	name = "76er"
+	name = "Triad Soldier"
 	jobtype = /datum/job/vamp/triad_soldier
 	uniform = /obj/item/clothing/under/vampire/suit
 	shoes = /obj/item/clothing/shoes/vampire/jackboots
