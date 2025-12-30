@@ -3180,11 +3180,6 @@
 	pixel_y = 4
 	},
 /obj/effect/landmark/start/bruiser,
-/obj/structure/vampfence/rich{
-	dir = 4;
-	name = "window bars";
-	pixel_y = 32
-	},
 /turf/open/floor/plating/vampplating/mono,
 /area/vtm/anarch/basement)
 "bVP" = (
@@ -10767,6 +10762,10 @@
 /area/vtm/interior/ghetto)
 "gul" = (
 /obj/effect/decal/wallpaper/stone/low,
+/obj/structure/vampfence/rich{
+	dir = 4;
+	pixel_y = 8
+	},
 /turf/closed/wall/vampwall/rich/low/window,
 /area/vtm/sewer)
 "guw" = (
@@ -16315,11 +16314,6 @@
 	},
 /area/vtm/interior/voivodate/sanctum)
 "jNf" = (
-/obj/structure/vampfence/rich{
-	dir = 4;
-	name = "window bars";
-	pixel_y = 32
-	},
 /obj/effect/decal/cleanable/trash{
 	icon_state = "trash8"
 	},
@@ -17895,11 +17889,6 @@
 /turf/open/floor/plating/toilet,
 /area/vtm/interior/vet)
 "kNm" = (
-/obj/structure/vampfence/rich{
-	dir = 4;
-	name = "window bars";
-	pixel_y = 32
-	},
 /obj/effect/decal/pallet,
 /obj/effect/decal/pallet{
 	pixel_x = 4;
@@ -19099,14 +19088,6 @@
 /obj/structure/vamptree,
 /turf/open/floor/plating/vampgrass,
 /area/vtm/voivodate)
-"lzD" = (
-/obj/structure/vampfence/rich{
-	dir = 4;
-	name = "window bars";
-	pixel_y = 32
-	},
-/turf/open/floor/plating/vampplating/mono,
-/area/vtm/anarch/basement)
 "lzF" = (
 /obj/effect/turf_decal/siding/white{
 	dir = 8
@@ -27734,11 +27715,6 @@
 /turf/open/floor/plating/asphalt,
 /area/vtm/financialdistrict)
 "qBj" = (
-/obj/structure/vampfence/rich{
-	dir = 4;
-	name = "window bars";
-	pixel_y = 32
-	},
 /obj/effect/decal/pallet{
 	pixel_x = -3;
 	pixel_y = -4
@@ -30253,7 +30229,7 @@
 /obj/effect/decal/wallpaper/stone/low,
 /obj/structure/vampfence/rich{
 	dir = 4;
-	name = "window bars"
+	pixel_y = 8
 	},
 /turf/closed/wall/vampwall/rich/low/window,
 /area/vtm/anarch/basement)
@@ -40152,13 +40128,13 @@
 /turf/open/floor/plating/parquetry/old,
 /area/vtm/interior/ghetto)
 "xPf" = (
-/obj/structure/stairs/south{
-	dir = 8
-	},
 /obj/machinery/light/small/pink{
 	dir = 1
 	},
-/turf/open/floor/plating/vampocean,
+/obj/structure/stairs/south{
+	dir = 8
+	},
+/turf/open/floor/plating/vampplating/mono,
 /area/vtm/interior/strip)
 "xPg" = (
 /obj/structure/fluff/tv{
@@ -44982,7 +44958,7 @@ qTM
 kzb
 hxj
 gul
-lzD
+bpq
 kHc
 nfy
 kHc
