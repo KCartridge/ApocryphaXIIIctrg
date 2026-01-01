@@ -7788,13 +7788,6 @@
 /obj/item/clothing/head/crown/fancy{
 	desc = "A crown that bears a striking resemblance to the missing Portugese crown jewels."
 	},
-/obj/structure/window/spawner/north,
-/obj/structure/window/spawner/north{
-	dir = 8
-	},
-/obj/structure/window/spawner/north{
-	dir = 4
-	},
 /turf/open/floor/carpet/vamp/blacksilver,
 /area/vtm/interior/millennium_tower/f4)
 "eyH" = (
@@ -15636,12 +15629,6 @@
 /obj/structure/table,
 /turf/closed/wall/vampwall/junk/alt/low,
 /area/vtm/interior/tattoo)
-"iSG" = (
-/obj/structure/lattice/catwalk{
-	pixel_x = 1
-	},
-/turf/closed/wall/vampwall/city,
-/area/vtm)
 "iSP" = (
 /obj/effect/turf_decal/siding/white/corner{
 	dir = 8;
@@ -68895,7 +68882,7 @@ dmo
 dmo
 dmo
 xdh
-iSG
+jBE
 rdj
 rdj
 rdj
