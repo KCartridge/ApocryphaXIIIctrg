@@ -1037,7 +1037,8 @@
 /obj/structure/bonfire/prelit{
 	burn_icon = "campfire_on";
 	icon = 'code/modules/wod13/props.dmi';
-	icon_state = "campfire_off"
+	icon_state = "campfire_off";
+	density = 1
 	},
 /obj/effect/realistic_fog/dense,
 /turf/open/floor/plating/vampdirt,
@@ -4047,7 +4048,8 @@
 /area/vtm/forest)
 "Kd" = (
 /obj/structure/bonfire/prelit{
-	pixel_y = 8
+	pixel_y = 8;
+	density = 1
 	},
 /turf/closed/wall/vampwall/wood/low,
 /area/vtm/forest/sept)
@@ -4651,7 +4653,8 @@
 /obj/structure/bonfire/prelit{
 	burn_icon = "campfire_on";
 	icon = 'code/modules/wod13/props.dmi';
-	icon_state = "campfire_off"
+	icon_state = "campfire_off";
+	density = 1
 	},
 /turf/open/floor/plating/vampgrass,
 /area/vtm/forest/sept)
