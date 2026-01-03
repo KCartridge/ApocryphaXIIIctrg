@@ -3869,7 +3869,6 @@
 	pixel_x = 5;
 	pixel_y = 15
 	},
-/obj/structure/table/wood,
 /obj/item/paper_bin{
 	pixel_x = -7;
 	pixel_y = 6

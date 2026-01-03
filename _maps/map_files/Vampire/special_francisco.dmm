@@ -3058,8 +3058,6 @@
 /area/vtm/interior/voivodate)
 "bMa" = (
 /obj/structure/table,
-/obj/structure/window/spawner/west,
-/obj/structure/window/spawner,
 /turf/closed/wall/vampwall/brick/low,
 /area/vtm/supply)
 "bMb" = (
@@ -13139,10 +13137,8 @@
 /turf/open/floor/circuit/telecomms/normal_temp,
 /area/vtm/interior/radio)
 "htm" = (
-/obj/structure/table,
-/obj/structure/window/spawner,
-/turf/open/floor/plating/concrete,
-/area/vtm/supply)
+/turf/closed/wall/vampwall/brick/low,
+/area/vtm/pacificheights)
 "htG" = (
 /obj/structure/clothinghanger{
 	pixel_x = -11;
@@ -20635,8 +20631,7 @@
 	pixel_x = -10;
 	pixel_y = 8
 	},
-/obj/structure/window/spawner,
-/turf/open/floor/plating/concrete,
+/turf/closed/wall/vampwall/brick/low,
 /area/vtm/supply)
 "lNZ" = (
 /obj/structure/table,
@@ -39053,7 +39048,6 @@
 /obj/machinery/light{
 	pixel_y = 32
 	},
-/obj/structure/window/spawner/west,
 /turf/closed/wall/vampwall/brick/low,
 /area/vtm/supply)
 "vRV" = (
@@ -39924,7 +39918,6 @@
 	pixel_y = 6
 	},
 /obj/item/pen,
-/obj/machinery/door/window/westright,
 /turf/closed/wall/vampwall/brick/low,
 /area/vtm/supply)
 "wtf" = (
@@ -61247,7 +61240,7 @@ xdw
 xdw
 xdw
 xdw
-xdw
+htm
 xdw
 dyA
 xdw
@@ -62001,7 +61994,7 @@ dKS
 fYl
 swO
 adF
-htm
+bMa
 bdL
 puI
 bdL
