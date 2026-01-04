@@ -18,6 +18,7 @@
 	exp_type_department = EXP_TYPE_GANG
 
 	allowed_species = SPECIES_ALL
+	allowed_bloodlines = CLAN_ALL
 	species_slots = list("Vampire" = 2, "Ghoul" = 2, "Human" = 50, "Werewolf" = 2)
 	minimal_generation = 13
 
