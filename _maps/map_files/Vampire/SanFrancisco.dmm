@@ -28394,7 +28394,7 @@
 /obj/structure/closet/cabinet,
 /obj/item/clothing/shoes/swagshoes,
 /obj/item/clothing/under/vampire/punk,
-/obj/item/vamp/keys/techstore,
+/obj/item/vamp/keys/nightwolf,
 /obj/item/storage/backpack/satchel,
 /turf/open/floor/plating/vampcarpet{
 	color = "#fFa670"
@@ -57658,7 +57658,7 @@
 	},
 /obj/structure/closet/crate/maint,
 /obj/item/lighter/greyscale,
-/obj/item/vamp/keys/techstore,
+/obj/item/vamp/keys/nightwolf,
 /turf/open/floor/plating/vampcanalplating,
 /area/vtm/interior/glasswalker)
 "nMW" = (
@@ -63183,7 +63183,7 @@
 	},
 /obj/item/clothing/shoes/swagshoes,
 /obj/item/clothing/under/vampire/turtleneck_black,
-/obj/item/vamp/keys/techstore,
+/obj/item/vamp/keys/nightwolf,
 /obj/item/storage/backpack/satchel,
 /turf/open/floor/plating/vampcarpet{
 	color = "#fFa670"
@@ -66199,7 +66199,7 @@
 "pJc" = (
 /obj/structure/closet/cabinet,
 /obj/item/restraints/handcuffs/fake,
-/obj/item/vamp/keys/techstore,
+/obj/item/vamp/keys/nightwolf,
 /obj/item/storage/backpack/duffelbag,
 /obj/item/clothing/under/misc/pj/blue,
 /obj/item/clothing/shoes/swagshoes,
@@ -73703,9 +73703,9 @@
 /turf/open/floor/plating/vampcanal,
 /area/vtm/sewer)
 "rtU" = (
-/obj/item/vamp/keys/techstore,
+/obj/item/vamp/keys/nightwolf,
 /obj/item/computer_hardware/network_card,
-/obj/item/vamp/keys/techstore,
+/obj/item/vamp/keys/nightwolf,
 /turf/open/floor/plating/concrete,
 /area/vtm/interior/techshop)
 "rtY" = (
