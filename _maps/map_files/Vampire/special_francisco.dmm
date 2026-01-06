@@ -456,6 +456,10 @@
 /obj/structure/coclock,
 /turf/closed/wall/vampwall/market/low,
 /area/vtm/interior/police)
+"aom" = (
+/mob/living/simple_animal/pet/cat/vampire,
+/turf/open/floor/plating/sidewalkalt,
+/area/vtm/unionsquare)
 "aos" = (
 /obj/structure/chair/office/light{
 	dir = 8
@@ -4027,6 +4031,13 @@
 	},
 /turf/open/floor/plating/vampplating/mono,
 /area/vtm/interior/millennium_tower)
+"cky" = (
+/obj/machinery/light/small/red{
+	dir = 8;
+	pixel_x = 16
+	},
+/turf/open/floor/plating/vampcanal,
+/area/vtm/sewer)
 "ckX" = (
 /obj/structure/chair/plastic{
 	dir = 1
@@ -6158,7 +6169,8 @@
 	},
 /obj/structure/vampdoor/glass/clinic{
 	dir = 4;
-	locked = 0
+	locked = 0;
+	lock_id = null
 	},
 /turf/open/floor/plating/vampplating/stone,
 /area/vtm/clinic)
@@ -7280,7 +7292,7 @@
 /obj/machinery/light/small{
 	pixel_y = 32
 	},
-/turf/open/floor/carpet/vamp/redsilver,
+/turf/open/floor/plating/parquetry/old,
 /area/vtm/anarch/basement)
 "edB" = (
 /obj/structure/fireplace{
@@ -9022,6 +9034,10 @@
 	},
 /turf/open/floor/plating/vampdirt,
 /area/vtm/voivodate)
+"fcx" = (
+/obj/structure/ladder/manhole/down,
+/turf/open/floor/plating/asphalt,
+/area/vtm/interior/millennium_tower)
 "fcL" = (
 /obj/structure/vamprocks,
 /obj/structure/flora/ausbushes/brflowers,
@@ -13205,6 +13221,13 @@
 /obj/effect/turf_decal/asphaltline,
 /turf/open/floor/plating/asphalt,
 /area/vtm)
+"hhd" = (
+/obj/structure/vampipe,
+/obj/structure/vampdoor/camarilla{
+	lockpick_difficulty = 10
+	},
+/turf/open/floor/plating/vampcanal,
+/area/vtm/sewer)
 "hhm" = (
 /obj/effect/turf_decal/weather/dirt{
 	dir = 5
@@ -15062,11 +15085,8 @@
 /turf/open/floor/plating/vampplating/mono,
 /area/vtm/interior/millennium_tower/f4)
 "ikU" = (
-/obj/machinery/light{
-	dir = 1
-	},
-/turf/open/floor/plating/toilet/clinic,
-/area/vtm/clinic)
+/turf/open/floor/plating/sidewalk,
+/area/space)
 "ilz" = (
 /turf/open/floor/carpet/vamp/redsilver,
 /area/vtm/interior/gang)
@@ -20418,6 +20438,12 @@
 	},
 /turf/open/floor/plating/parquetry/old,
 /area/vtm/interior/voivodate)
+"lqQ" = (
+/obj/machinery/light/small/pink{
+	dir = 1
+	},
+/turf/open/floor/plating/sidewalkalt,
+/area/vtm/unionsquare)
 "lqZ" = (
 /turf/open/floor/plating/vampdirt,
 /area/vtm/interior/voivodate/sanctum)
@@ -22569,7 +22595,7 @@
 /area/vtm/interior/millennium_tower/f4)
 "mCk" = (
 /obj/structure/chair/sofa/corp/right,
-/turf/open/floor/carpet/vamp/redsilver,
+/turf/open/floor/plating/parquetry/old,
 /area/vtm/anarch/basement)
 "mCQ" = (
 /obj/effect/turf_decal/bordur{
@@ -23025,6 +23051,12 @@
 /obj/effect/landmark/latejoin,
 /turf/open/floor/plating/asphalt,
 /area/vtm)
+"mLN" = (
+/obj/machinery/light/small/red{
+	dir = 1
+	},
+/turf/open/floor/plating/vampcanal,
+/area/vtm/sewer)
 "mLS" = (
 /obj/effect/turf_decal/siding/white{
 	color = "#636363";
@@ -24472,7 +24504,7 @@
 "nAd" = (
 /obj/structure/chair/sofa/corp/left,
 /obj/structure/coclock,
-/turf/open/floor/carpet/vamp/redsilver,
+/turf/open/floor/plating/parquetry/old,
 /area/vtm/anarch/basement)
 "nAE" = (
 /obj/effect/decal/cleanable/litter,
@@ -25295,7 +25327,8 @@
 /obj/effect/landmark/npcwall,
 /obj/structure/vampdoor/glass/clinic{
 	dir = 4;
-	locked = 0
+	locked = 0;
+	lock_id = null
 	},
 /turf/open/floor/plating/concrete,
 /area/vtm/clinic)
@@ -25890,7 +25923,7 @@
 /obj/machinery/light/small{
 	pixel_y = 32
 	},
-/turf/open/floor/carpet/vamp/redsilver,
+/turf/open/floor/plating/parquetry/old,
 /area/vtm/anarch/basement)
 "ooK" = (
 /obj/transfer_point_vamp/forest/north,
@@ -25906,10 +25939,9 @@
 /area/vtm/sewer)
 "ooO" = (
 /obj/structure/table,
-/obj/item/restraints/handcuffs,
-/obj/item/restraints/handcuffs,
 /obj/item/melee/vampirearms/tire,
 /obj/item/melee/vampirearms/tire,
+/obj/item/storage/box/handcuffs,
 /turf/open/floor/plating/concrete,
 /area/vtm/anarch/basement)
 "opu" = (
@@ -26828,7 +26860,7 @@
 	force = 55
 	},
 /obj/item/pen,
-/turf/open/floor/carpet/vamp/redsilver,
+/turf/open/floor/plating/parquetry/old,
 /area/vtm/anarch/basement)
 "oQi" = (
 /obj/vampire_car/retro/rand/voivodate{
@@ -28402,7 +28434,6 @@
 /area/vtm)
 "pFI" = (
 /obj/structure/vampdoor/anarch{
-	dir = 8;
 	lockpick_difficulty = 13
 	},
 /turf/open/floor/plating/concrete,
@@ -29490,6 +29521,15 @@
 	},
 /turf/open/floor/plating/sidewalk/rich,
 /area/vtm/voivodate)
+"qjb" = (
+/obj/structure/chair/office/light{
+	dir = 8
+	},
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/plating/toilet/clinic,
+/area/vtm/clinic)
 "qjj" = (
 /turf/open/floor/plating/sidewalk/old,
 /area/vtm/unionsquare)
@@ -29723,6 +29763,9 @@
 /obj/effect/turf_decal/bordur,
 /turf/open/floor/plating/vampplating/stone,
 /area/vtm/interior/voivodate)
+"qpi" = (
+/turf/open/space/basic,
+/area/vtm/clinic)
 "qpq" = (
 /obj/structure/table,
 /obj/item/reagent_containers/food/condiment/mayonnaise{
@@ -31683,7 +31726,7 @@
 /obj/structure/extinguisher_cabinet{
 	dir = 8
 	},
-/turf/open/floor/carpet/vamp/redsilver,
+/turf/open/floor/plating/parquetry/old,
 /area/vtm/anarch/basement)
 "rqE" = (
 /turf/open/floor/carpet/vamp/bluesilver,
@@ -35912,7 +35955,7 @@
 /obj/item/reagent_containers/blood/elite,
 /obj/item/reagent_containers/blood/elite,
 /obj/structure/closet/mini_fridge,
-/turf/open/floor/carpet/vamp/redsilver,
+/turf/open/floor/plating/parquetry/old,
 /area/vtm/anarch/basement)
 "tEM" = (
 /obj/vampire_car/track/volkswagen,
@@ -37034,6 +37077,10 @@
 /obj/machinery/iv_drip,
 /turf/open/floor/plating/sidewalk/old,
 /area/vtm/interior/voivodate/sanctum)
+"uiY" = (
+/obj/structure/ladder/manhole/up,
+/turf/open/floor/plating/sidewalk,
+/area/space)
 "uja" = (
 /obj/structure/coclock,
 /turf/open/floor/plating/parquetry/old,
@@ -37737,7 +37784,7 @@
 /obj/machinery/light/small{
 	dir = 1
 	},
-/turf/open/floor/carpet/vamp/redsilver,
+/turf/open/floor/plating/parquetry/old,
 /area/vtm/anarch/basement)
 "uBg" = (
 /obj/structure/vampdoor/prison{
@@ -38161,8 +38208,8 @@
 /turf/open/floor/plating/bacotell,
 /area/vtm/interior/shop/bacotell)
 "uMy" = (
-/obj/effect/decal/cleanable/trash{
-	icon_state = "trash8"
+/obj/effect/turf_decal/bordur/inverse{
+	dir = 1
 	},
 /turf/open/floor/plating/sidewalk/poor,
 /area/vtm/unionsquare)
@@ -39276,6 +39323,13 @@
 	color = "#636363"
 	},
 /area/vtm/interior/police)
+"vsn" = (
+/obj/machinery/light/small/pink{
+	dir = 4;
+	pixel_x = -16
+	},
+/turf/open/floor/plating/sidewalkalt,
+/area/vtm/unionsquare)
 "vso" = (
 /obj/structure/vampdoor/anarch{
 	locked = 0
@@ -39547,6 +39601,16 @@
 /obj/structure/table/wood,
 /turf/open/floor/plating/parquetry/old,
 /area/vtm/interior/ghetto)
+"vzk" = (
+/obj/effect/turf_decal/bordur/inverse,
+/obj/item/toy/plush/moth{
+	pixel_x = -5;
+	pixel_y = 24;
+	anchored = 1;
+	name = "Cloth Eatron"
+	},
+/turf/open/floor/plating/asphalt,
+/area/vtm)
 "vzC" = (
 /obj/effect/decal/cleanable/trash,
 /obj/effect/decal/cleanable/trash,
@@ -40649,9 +40713,9 @@
 /turf/open/floor/plating/parquetry/old,
 /area/vtm/interior/radio)
 "wjW" = (
-/obj/effect/decal/cleanable/cardboard,
-/turf/open/floor/carpet/vamp/redsilver,
-/area/vtm/anarch/basement)
+/obj/effect/decal/cleanable/trash,
+/turf/open/floor/plating/sidewalkalt,
+/area/vtm/unionsquare)
 "wkb" = (
 /obj/structure/table/bubway,
 /obj/machinery/chem_dispenser/drinks{
@@ -42291,7 +42355,7 @@
 "xeq" = (
 /obj/effect/decal/cleanable/trash,
 /obj/effect/decal/cleanable/trash,
-/turf/open/floor/plating/sidewalk/poor,
+/turf/open/floor/plating/sidewalkalt,
 /area/vtm/unionsquare)
 "xer" = (
 /obj/machinery/light{
@@ -43247,7 +43311,7 @@
 /obj/effect/decal/cleanable/trash{
 	icon_state = "trash5"
 	},
-/turf/open/floor/plating/sidewalk/poor,
+/turf/open/floor/plating/sidewalkalt,
 /area/vtm/unionsquare)
 "xIU" = (
 /obj/structure/chair/wood{
@@ -47200,7 +47264,7 @@ wrk
 xPy
 jXM
 sLZ
-sLZ
+oWX
 qeE
 fLq
 lEu
@@ -47308,8 +47372,8 @@ xPy
 mWS
 sLZ
 sLZ
-oWX
-xPy
+sLZ
+pFI
 sLZ
 bpq
 sLZ
@@ -47520,7 +47584,7 @@ xPy
 xPy
 xPy
 xPy
-pFI
+xPy
 xPy
 xPy
 oVf
@@ -48274,10 +48338,10 @@ bpq
 bpq
 oIm
 mCk
-ioI
+jRU
 oPT
-ioI
-ioI
+jRU
+jRU
 tEK
 xPy
 rUU
@@ -48381,7 +48445,7 @@ bpq
 bpq
 xPy
 oor
-ioI
+jRU
 tfL
 gjd
 ioI
@@ -48487,12 +48551,12 @@ kHc
 kHc
 bpq
 mvx
-wjW
-ioI
+ixF
+jRU
 gWT
 nzx
 ioI
-ioI
+jRU
 xDM
 jRU
 jRU
@@ -48595,7 +48659,7 @@ kHc
 bpq
 xPy
 edA
-ioI
+jRU
 ioI
 ioI
 ioI
@@ -48702,11 +48766,11 @@ kHc
 nDJ
 xPy
 nAd
-ioI
+jRU
 rqB
-ioI
-ioI
-ioI
+jRU
+jRU
+jRU
 xPy
 laz
 oWC
@@ -50248,7 +50312,7 @@ wQZ
 nbL
 fhq
 wSZ
-wrk
+ikU
 ofT
 hxj
 kzb
@@ -50355,7 +50419,7 @@ wQZ
 dKL
 dKL
 wSZ
-wrk
+ikU
 ofT
 hxj
 kzb
@@ -50462,8 +50526,8 @@ arg
 arg
 arg
 tiW
-wrk
-ofT
+ikU
+hhd
 hxj
 kzb
 lFH
@@ -50569,7 +50633,7 @@ arg
 dUy
 fte
 tiW
-tiW
+ikU
 ofT
 hxj
 kzb
@@ -50675,8 +50739,8 @@ gyh
 lWM
 dUy
 dUy
-tUm
-dUy
+tiW
+uiY
 ofT
 hxj
 kzb
@@ -50782,8 +50846,8 @@ gyh
 arg
 dUy
 dUy
-phi
-aos
+tiW
+tiW
 ofT
 hxj
 kzb
@@ -50889,8 +50953,8 @@ gyh
 ezV
 dUy
 dUy
+tUm
 dUy
-ikU
 ofT
 hxj
 kzb
@@ -50996,8 +51060,8 @@ gyh
 ezV
 aos
 dUy
-dUy
-dUy
+phi
+qjb
 ofT
 hxj
 kzb
@@ -51104,7 +51168,7 @@ arg
 rwj
 dUy
 dUy
-ycP
+qpi
 ofT
 hxj
 kzb
@@ -51211,7 +51275,7 @@ arg
 cWO
 dUy
 dUy
-dUy
+ycP
 uHD
 bDz
 kzb
@@ -53128,7 +53192,7 @@ lVj
 lVj
 hRy
 wcy
-hxj
+mLN
 uHD
 wrk
 bWz
@@ -53443,7 +53507,7 @@ hxj
 hxj
 hxj
 hxj
-hxj
+cky
 hxj
 hxj
 hxj
@@ -54078,7 +54142,7 @@ bWz
 bWz
 wrk
 nzB
-hxj
+uDS
 uHD
 wrk
 bWz
@@ -56184,18 +56248,18 @@ dIU
 dIU
 hpw
 dIU
-dIU
-hpw
-dIU
-dIU
-dIU
-dIU
-hpw
-dIU
-dIU
-dIU
 uMy
-dIU
+wjW
+mqL
+mqL
+mqL
+mqL
+wjW
+vsn
+mqL
+mqL
+mqL
+mqL
 drs
 rWV
 dTj
@@ -56291,18 +56355,18 @@ dIU
 dIU
 dIU
 gkr
-dIU
-hpw
+uMy
+wjW
 xeq
-hpw
-fjC
-hpw
-dIU
+wjW
+aom
+wjW
+mqL
 xIQ
-dIU
-dIU
-hpw
-hpw
+mqL
+mqL
+mqL
+wjW
 kaB
 dTj
 dTj
@@ -56408,8 +56472,8 @@ lUl
 lUl
 lUl
 xIQ
-dIU
-dIU
+mqL
+mqL
 drs
 jQy
 mSu
@@ -56514,8 +56578,8 @@ iaG
 aYv
 uhZ
 lUl
-dIU
-dIU
+mqL
+mqL
 rce
 anT
 lRo
@@ -56621,8 +56685,8 @@ jbS
 jbS
 jbS
 lUl
-dIU
-dIU
+mqL
+lqQ
 kXq
 ryv
 ryv
@@ -56728,8 +56792,8 @@ jbS
 gZI
 qBx
 lUl
-dIU
-hpw
+mqL
+wjW
 kXq
 blB
 ePj
@@ -56835,8 +56899,8 @@ fkh
 lUl
 lUl
 lUl
-dIU
-dIU
+mqL
+mqL
 jsX
 fLp
 tob
@@ -56942,8 +57006,8 @@ rjk
 rjk
 rjk
 hEO
-dIU
-dIU
+mqL
+mqL
 jsX
 ryv
 ryv
@@ -57049,8 +57113,8 @@ pSn
 pSn
 pSn
 dhL
-gCt
-gCt
+iIT
+iIT
 jsX
 ryv
 ryv
@@ -60500,7 +60564,7 @@ jKK
 qmj
 qmj
 nMG
-tEv
+vzk
 hYA
 urH
 vao
@@ -61912,8 +61976,8 @@ sRJ
 cju
 mnN
 hdo
+fcx
 hdo
-xoa
 xoa
 xoa
 xoa
@@ -64666,9 +64730,9 @@ wcy
 sjf
 ots
 wcy
-kYC
-oCV
 uAE
+oCV
+kYC
 wcy
 oYa
 oYa
@@ -64773,9 +64837,9 @@ gFT
 wLa
 wLa
 wcy
-kYC
-nzX
 uAE
+nzX
+kYC
 wcy
 piV
 epX
