@@ -3023,7 +3023,10 @@
 /obj/machinery/light/small{
 	pixel_y = 32
 	},
-/obj/machinery/vending/cola,
+/obj/machinery/vending/cola{
+	pixel_x = 0;
+	pixel_y = 20
+	},
 /obj/effect/turf_decal/apoc/vampbeach{
 	dir = 9
 	},
@@ -3522,6 +3525,13 @@
 /obj/structure/flora/ausbushes/ywflowers,
 /obj/effect/turf_decal/apoc/vampdirt,
 /turf/open/floor/plating/vampgrass,
+/area/vtm/forest)
+"ET" = (
+/obj/structure/closet/crate/bin/undense{
+	pixel_x = 0;
+	pixel_y = 21
+	},
+/turf/open/floor/plating/vampbeach,
 /area/vtm/forest)
 "Fc" = (
 /obj/effect/turf_decal/apoc/vampdirt{
@@ -4875,7 +4885,10 @@
 /obj/machinery/light/small{
 	pixel_y = 32
 	},
-/obj/machinery/vending/snack,
+/obj/machinery/vending/snack{
+	pixel_x = 0;
+	pixel_y = 20
+	},
 /obj/effect/turf_decal/apoc/vampbeach{
 	dir = 5
 	},
@@ -12994,7 +13007,7 @@ us
 Kt
 Kt
 Kt
-us
+ET
 us
 us
 AN

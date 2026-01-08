@@ -4126,7 +4126,7 @@
 "clF" = (
 /obj/machinery/vending/snack{
 	pixel_x = 0;
-	pixel_y = 22
+	pixel_y = 20
 	},
 /turf/open/floor/plating/vampplating/mono,
 /area/vtm/interior/mallunderground)
@@ -9996,6 +9996,7 @@
 /turf/open/floor/plating/concrete,
 /area/vtm/interior/vjanitor)
 "fwZ" = (
+/obj/structure/curtain/bounty,
 /turf/closed/wall/vampwall/bar/low/window,
 /area/vtm/interior/tattoo)
 "fxa" = (
@@ -15293,7 +15294,7 @@
 /area/vtm/interior/millennium_tower/f4)
 "ikU" = (
 /turf/open/floor/plating/sidewalk,
-/area/space)
+/area/vtm/sewer)
 "ilz" = (
 /turf/open/floor/carpet/vamp/redsilver,
 /area/vtm/interior/gang)
@@ -16241,12 +16242,6 @@
 	},
 /turf/open/floor/plating/granite,
 /area/vtm/interior/endron_facility/restricted)
-"iQj" = (
-/obj/machinery/light{
-	pixel_y = 30
-	},
-/turf/closed/wall/vampwall/bar/low/window,
-/area/vtm/interior/tattoo)
 "iQq" = (
 /obj/structure/table,
 /obj/item/reagent_containers/food/drinks/dry_ramen{
@@ -28512,9 +28507,6 @@
 	},
 /turf/open/floor/plating/sidewalk/poor,
 /area/vtm/pacificheights)
-"pxJ" = (
-/turf/closed/wall/vampwall/brick,
-/area/vtm/interior/mallclothes)
 "pxN" = (
 /obj/effect/turf_decal/apoc/vampdirt/corner,
 /turf/open/floor/plating/shit,
@@ -36008,12 +36000,6 @@
 	},
 /turf/closed/wall/vampwall/painted/low/window,
 /area/vtm/interior)
-"twc" = (
-/obj/machinery/light{
-	pixel_y = 30
-	},
-/turf/open/floor/plating/vampplating,
-/area/vtm/interior/tattoo)
 "twn" = (
 /turf/open/floor/plating/vampwood,
 /area/vtm/interior/voivodate)
@@ -37552,7 +37538,7 @@
 "uiY" = (
 /obj/structure/ladder/manhole/up,
 /turf/open/floor/plating/sidewalk,
-/area/space)
+/area/vtm/sewer)
 "uja" = (
 /obj/structure/coclock,
 /turf/open/floor/plating/parquetry/old,
@@ -40063,12 +40049,6 @@
 	},
 /turf/open/floor/plating/vampplating/mono,
 /area/vtm/interior/millennium_tower/f4)
-"vyr" = (
-/obj/machinery/light{
-	pixel_y = 30
-	},
-/turf/closed/wall/vampwall/bar,
-/area/vtm/interior/tattoo)
 "vyu" = (
 /obj/effect/landmark/npcwall,
 /obj/effect/turf_decal/bordur/inverse,
@@ -40095,16 +40075,6 @@
 /obj/structure/table/wood,
 /turf/open/floor/plating/parquetry/old,
 /area/vtm/interior/ghetto)
-"vzk" = (
-/obj/effect/turf_decal/bordur/inverse,
-/obj/item/toy/plush/moth{
-	pixel_x = -5;
-	pixel_y = 24;
-	anchored = 1;
-	name = "Cloth Eatron"
-	},
-/turf/open/floor/plating/asphalt,
-/area/vtm)
 "vzC" = (
 /obj/effect/decal/cleanable/trash,
 /obj/effect/decal/cleanable/trash,
@@ -41994,9 +41964,6 @@
 	},
 /turf/open/floor/plating/vampplating/mono,
 /area/vtm/interior/endron_facility/restricted)
-"wGw" = (
-/turf/closed/wall/vampwall/bar,
-/area/vtm/interior/mallclothes)
 "wGC" = (
 /obj/effect/turf_decal/bordur{
 	dir = 4
@@ -49607,8 +49574,8 @@ qWz
 vci
 sVE
 trU
-twc
-iQj
+trU
+fwZ
 nbL
 nbL
 nbL
@@ -49713,9 +49680,9 @@ tSs
 rFf
 xir
 sSj
-twc
-twc
-vyr
+trU
+trU
+odu
 czN
 nbL
 nbL
@@ -49814,7 +49781,7 @@ tqI
 wrk
 wrk
 wrk
-wGw
+gsU
 gsU
 gsU
 gsU
@@ -49921,7 +49888,7 @@ wrk
 wrk
 wrk
 wrk
-pxJ
+gsU
 rcY
 gJP
 drM
@@ -50028,7 +49995,7 @@ dad
 dad
 dad
 dad
-pxJ
+gsU
 lAJ
 gJP
 drM
@@ -61150,7 +61117,7 @@ jKK
 qmj
 qmj
 nMG
-vzk
+tEv
 hYA
 urH
 vao
