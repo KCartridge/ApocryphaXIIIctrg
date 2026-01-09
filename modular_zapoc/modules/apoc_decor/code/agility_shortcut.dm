@@ -43,7 +43,6 @@ GLOBAL_LIST_EMPTY(unallocated_agility_shortcuts)
 		time = base_timer - (user_power*10)
 
 	if(validate_allowance(user))
-		var/mob/living/carbon/C = user
 		if(do_after(user, max(base_timer, time), src))
 			user.forceMove(get_turf(exit))
 		else
