@@ -44,12 +44,10 @@ GLOBAL_LIST_EMPTY(unallocated_agility_shortcuts)
 
 	if(validate_allowance(user))
 		var/mob/living/carbon/C = user
-		if(C.auspice.tribe.name in TRIBE_GAIA)
-			to_chat(user, span_notice("You start crawling through the tunnel..."))
-			if(do_after(user, max(3 SECONDS, time), src))
-				user.forceMove(get_turf(exit))
-			else
-				to_chat(user, span_warning("You stop trying to crawl through the tunnel."))
+		if(do_after(user, max(base_timer, time), src))
+			user.forceMove(get_turf(exit))
+		else
+			to_chat(user, span_warning("You stop trying to crawl through the tunnel."))
 	else
 		to_chat(user, span_warning("No way I'm crawling in there."))
 
