@@ -55,7 +55,7 @@ GLOBAL_LIST_EMPTY(unallocated_agility_shortcuts)
 		return FALSE
 
 	if(ishuman(user))
-		var/mob/living/carbon/human/mover
+		var/mob/living/carbon/human/mover = user
 		if(mover.dna.species in allowed_species)
 			return TRUE
 
