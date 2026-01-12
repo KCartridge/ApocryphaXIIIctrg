@@ -4875,6 +4875,14 @@
 /obj/effect/turf_decal/apoc/vampdirt/corner,
 /turf/open/floor/plating/vampgrass,
 /area/vtm/forest)
+"Sh" = (
+/obj/agility_shortcut/cave/gaia{
+	id = "caern";
+	pixel_x = 0;
+	pixel_y = 30
+	},
+/turf/open/floor/plating/rough,
+/area/vtm/forest/interior/cave)
 "Si" = (
 /obj/effect/turf_decal/apoc/vampbeach/corner{
 	dir = 8
@@ -5374,13 +5382,6 @@
 	},
 /turf/open/floor/plating/vampgrass/random/grass,
 /area/vtm/forest/sept)
-"Xg" = (
-/obj/agility_shortcut{
-	pixel_y = 32;
-	id = "caern"
-	},
-/turf/open/floor/plating/rough,
-/area/vtm/forest/interior/cave)
 "Xh" = (
 /obj/item/flashlight/lantern{
 	on = 14;
@@ -5528,9 +5529,10 @@
 /area/vtm/forest/sept)
 "YK" = (
 /obj/structure/glowshroom/glowcap,
-/obj/agility_shortcut{
-	pixel_y = 32;
-	id = "caern"
+/obj/agility_shortcut/cave/gaia{
+	id = "caern";
+	pixel_x = 0;
+	pixel_y = 30
 	},
 /turf/open/floor/plating/rough/cave,
 /area/vtm/forest/interior/cave)
@@ -11509,7 +11511,7 @@ ze
 sS
 IZ
 EH
-Xg
+Sh
 ye
 EH
 LS
