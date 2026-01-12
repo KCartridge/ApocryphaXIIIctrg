@@ -6,6 +6,7 @@ GLOBAL_LIST_EMPTY(unallocated_agility_shortcuts)
 	icon = 'modular_zapoc/modules/apoc_decor/icons/agility_shortcut.dmi'
 	icon_state = "shortcut"
 	anchored = TRUE
+	pixel_y = 32
 	var/obj/agility_shortcut/exit
 	var/id
 	// If false, scales with athletics
