@@ -1,12 +1,13 @@
 /mob/living/simple_animal/hostile/megafauna/demonic_frost_miner/eternal_winter
 	name = "Eternal Winter"
 	desc = "A terrifying monster that chills you to your very bones."
-	health = 300
-	maxHealth = 300
+	health = 3000
+	maxHealth = 3000
 	icon_state = "eternal_winter"
 	icon_living = "eternal_winter"
 	icon = 'modular_zapoc/modules/apoc_mobs/icons/eternal_winter.dmi'
 	attack_sound = 'sound/weapons/sonic_jackhammer.ogg'
+	death_sound = 'sound/magic/demon_dies.ogg'
 	light_color = COLOR_CYAN
 	pixel_x = -32
 	base_pixel_x = -32
