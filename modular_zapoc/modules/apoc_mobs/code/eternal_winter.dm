@@ -18,6 +18,7 @@
 	score_achievement_type = /datum/award/score/demonic_miner_score/eternal_winter
 	deathmessage = "falls to the ground, decaying into... something. An undissipating cloud of frost lingers in the air."
 	projectile_speed_multiplier = 2
+	light_range = 20
 
 /obj/effect/decal/remains/vomitnebula
 	name = "celestial ejecta"

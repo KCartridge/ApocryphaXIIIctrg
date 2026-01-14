@@ -466,7 +466,8 @@
 	deathpop = FALSE
 
 /obj/effect/mob_spawn/human/corpse/damaged/legioninfested/permafrost/Initialize() // APOC EDIT START
-	var/type = pickweight(list("EndronSci" = 4, "EndronSec" = 5, "Garou" = 1, "Police" = 35, pick(list("Ciz1", "Ciz2", "Ciz3", "Ciz4")) = 55))
+	. = ..()
+	var/type = pickweight(list("Police" = 25, pick(list("Ciz1", "Ciz2", "Ciz3", "Ciz4")) = 75))
 	switch(type)
 		if("EndronSci")
 			uniform = /obj/item/clothing/under/pentex/pentex_turtleneck
@@ -505,4 +506,4 @@
 			outfit = /datum/outfit/civillian3
 		if("Ciz4")
 			outfit = /datum/outfit/civillian4
-	. = ..() // APOC EDIT END
+ // APOC EDIT END
