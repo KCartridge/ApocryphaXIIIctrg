@@ -777,13 +777,6 @@
 	},
 /turf/open/floor/plating/ice,
 /area/vtm/eternal_winter)
-"nu" = (
-/obj/effect/turf_decal/bordur/snow{
-	dir = 8
-	},
-/obj/transfer_point_vamp/eternal_winter/one,
-/turf/open/floor/plating/vampsnowphalt,
-/area/vtm/eternal_winter)
 "nG" = (
 /obj/effect/decal/cleanable/blood/gibs/up,
 /turf/open/floor/plating/rough/cave,
@@ -837,10 +830,6 @@
 	dir = 9
 	},
 /turf/open/floor/plating/ice,
-/area/vtm/eternal_winter)
-"pm" = (
-/obj/transfer_point_vamp/eternal_winter/two,
-/turf/open/floor/plating/vampsnowphalt,
 /area/vtm/eternal_winter)
 "ps" = (
 /obj/effect/turf_decal/bordur/snow{
@@ -1153,13 +1142,6 @@
 	dir = 8
 	},
 /turf/open/floor/plating/vampsnow,
-/area/vtm/eternal_winter)
-"uh" = (
-/obj/effect/turf_decal/bordur/snow{
-	dir = 4
-	},
-/obj/transfer_point_vamp/eternal_winter/three,
-/turf/open/floor/plating/vampsnowphalt,
 /area/vtm/eternal_winter)
 "uk" = (
 /obj/effect/turf_decal/bordur/snow{
@@ -2618,10 +2600,6 @@
 	},
 /turf/open/floor/plating/sidewalk/vampsnow,
 /area/vtm/eternal_winter/interior)
-"TS" = (
-/obj/transfer_point_vamp/eternal_winter/four,
-/turf/open/floor/plating/sidewalk/vampsnow,
-/area/vtm/eternal_winter)
 "Uo" = (
 /obj/structure/table/wood/bar,
 /obj/item/lighter{
@@ -2909,10 +2887,6 @@
 	},
 /turf/open/floor/plating/vampsnow,
 /area/vtm/eternal_winter/interior)
-"Yq" = (
-/obj/transfer_point_vamp/eternal_winter,
-/turf/open/floor/plating/sidewalk/vampsnow,
-/area/vtm/eternal_winter)
 "Yt" = (
 /obj/effect/turf_decal/bordur/snow{
 	dir = 4
@@ -12503,7 +12477,7 @@ Pe
 Pe
 Pe
 Pe
-Yq
+Pe
 sK
 gb
 "}
@@ -12693,7 +12667,7 @@ gV
 gV
 gV
 gV
-nu
+gV
 sK
 gb
 "}
@@ -12883,7 +12857,7 @@ cX
 cX
 cX
 cX
-pm
+cX
 sK
 gb
 "}
@@ -13073,7 +13047,7 @@ Lb
 Lb
 Lb
 Lb
-uh
+Lb
 sK
 gb
 "}
@@ -13263,7 +13237,7 @@ Pe
 Pe
 Pe
 Pe
-TS
+Pe
 sK
 gb
 "}
