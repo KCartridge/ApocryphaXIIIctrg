@@ -88,6 +88,12 @@
 	},
 /turf/open/floor/plating/sidewalk/vampsnow,
 /area/vtm/eternal_winter/interior)
+"bW" = (
+/obj/machinery/light/prince{
+	pixel_y = 32
+	},
+/turf/open/floor/plating/vampsnow,
+/area/vtm/eternal_winter)
 "bX" = (
 /obj/effect/turf_decal/bordur/snow{
 	dir = 1
@@ -309,13 +315,6 @@
 	dir = 8
 	},
 /turf/open/floor/plating/vampsnow,
-/area/vtm/eternal_winter)
-"gj" = (
-/obj/effect/turf_decal/siding/wood{
-	color = null
-	},
-/obj/structure/vampdoor/wood/voivodate/unlocked,
-/turf/open/floor/plating/sidewalk/vampsnow,
 /area/vtm/eternal_winter)
 "gt" = (
 /obj/structure/spawner/mining/snow_guys/difficult,
@@ -1789,6 +1788,18 @@
 	},
 /turf/open/floor/plating/sidewalk/vampsnow,
 /area/vtm/eternal_winter/interior)
+"DU" = (
+/obj/effect/turf_decal/bordur/corner/snow{
+	dir = 1
+	},
+/obj/item/flashlight/lantern{
+	on = 14;
+	light_on = 1;
+	pixel_x = 9;
+	pixel_y = 8
+	},
+/turf/open/floor/plating/vampsnow,
+/area/vtm/eternal_winter)
 "Ed" = (
 /obj/effect/turf_decal/bordur/snow{
 	dir = 9
@@ -2393,7 +2404,7 @@
 /turf/open/floor/plating/sidewalk/vampsnow,
 /area/vtm/eternal_winter)
 "Pj" = (
-/obj/structure/vampdoor/glass,
+/obj/structure/vampdoor/wood,
 /turf/open/floor/plating/vampsnow,
 /area/vtm/eternal_winter/interior)
 "Pr" = (
@@ -2769,7 +2780,7 @@
 /obj/effect/turf_decal/siding/wood{
 	color = null
 	},
-/obj/structure/vampdoor/wood/voivodate,
+/obj/structure/vampdoor/wood,
 /turf/open/floor/plating/sidewalk/vampsnow,
 /area/vtm/eternal_winter)
 "Wb" = (
@@ -3003,7 +3014,7 @@
 /obj/effect/turf_decal/siding/wideplating/dark{
 	color = null
 	},
-/obj/structure/vampdoor/wood/voivodate_citizen,
+/obj/structure/vampdoor/wood,
 /turf/open/floor/plating/vampsnow,
 /area/vtm/eternal_winter/interior)
 
@@ -5789,7 +5800,7 @@ Ja
 bu
 yH
 Af
-gj
+VZ
 Pe
 Pe
 UV
@@ -9805,9 +9816,9 @@ Ix
 Ix
 xT
 Lu
-GE
+bW
 uN
-Bp
+DU
 ty
 uN
 uN
@@ -10375,7 +10386,7 @@ rX
 rX
 tP
 Lu
-GE
+bW
 uN
 ub
 ke

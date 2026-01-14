@@ -31,6 +31,7 @@ Difficulty: Extremely Hard
 	crusher_loot = list(/obj/effect/decal/remains/plasma, /obj/item/crusher_trophy/ice_block_talisman)
 	loot = list(/obj/effect/decal/remains/plasma)
 	wander = FALSE
+	stat_attack = SOFT_CRIT // APOC EDIT ADD - Don't execute
 	del_on_death = TRUE
 	blood_volume = BLOOD_VOLUME_NORMAL
 	achievement_type = /datum/award/achievement/boss/demonic_miner_kill
