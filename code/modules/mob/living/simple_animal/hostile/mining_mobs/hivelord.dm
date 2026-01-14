@@ -121,8 +121,11 @@
 	robust_searching = 1
 	var/dwarf_mob = FALSE
 	var/mob/living/carbon/human/stored_mob
-	var/normal_spawnlist = TRUE
-	var/corpse_to_spawn
+	var/endronscichance = 46
+	var/endronsecchance = 30
+	var/garouchance = 10
+	var/policechance = 10
+	var/civchance = 4
 
 /mob/living/simple_animal/hostile/asteroid/hivelord/legion/random/Initialize()
 	. = ..()
@@ -154,10 +157,8 @@
 			new /obj/effect/mob_spawn/human/corpse/charredskeleton(T)
 		else if(dwarf_mob)
 			new /obj/effect/mob_spawn/human/corpse/damaged/legioninfested/dwarf(T)
-		else if(normal_spawnlist)
-			new /obj/effect/mob_spawn/human/corpse/damaged/legioninfested(T)
 		else
-			new corpse_to_spawn(T)
+			new /obj/effect/mob_spawn/human/corpse/damaged/legioninfested(T)
 	..(gibbed)
 
 /mob/living/simple_animal/hostile/asteroid/hivelord/legion/tendril
@@ -294,8 +295,15 @@
 	. = ..()
 	H.dna.add_mutation(DWARFISM)
 
-/obj/effect/mob_spawn/human/corpse/damaged/legioninfested/Initialize() // APOC EDIT START
-	var/type = pickweight(list("EndronSci" = 46, "EndronSec" = 30, "Garou" = 10, "Police" = 10, pick(list("Ciz1", "Ciz2", "Ciz3", "Ciz4")) = 4))
+/obj/effect/mob_spawn/human/corpse/damaged/legioninfested
+	var/endronscichance = 46
+	var/endronsecchance = 30
+	var/garouchance = 10
+	var/policechance = 10
+	var/civchance = 4
+
+/obj/effect/mob_spawn/human/corpse/damaged/legioninfested/Initialize()
+	var/type = pickweight(list("EndronSci" = endronscichance, "EndronSec" = endronsecchance, "Garou" = garouchance, "Police" = policechance, pick(list("Ciz1", "Ciz2", "Ciz3", "Ciz4")) = civchance))
 	switch(type)
 		if("EndronSci")
 			uniform = /obj/item/clothing/under/pentex/pentex_turtleneck
@@ -447,8 +455,11 @@
 	crusher_loot = /obj/item/crusher_trophy/legion_skull
 	loot = list(/obj/item/organ/regenerative_core/legion)
 	brood_type = /mob/living/simple_animal/hostile/asteroid/hivelordbrood/legion/snow
-	normal_spawnlist = FALSE
-	corpse_to_spawn = /obj/effect/mob_spawn/human/corpse/damaged/legioninfested/permafrost
+	endronscichance = 1
+	endronsecchance = 1
+	garouchance = 1
+	policechance = 25
+	civchance = 72
 
 /mob/living/simple_animal/hostile/asteroid/hivelordbrood/legion/snow/make_legion(mob/living/carbon/human/H)
 	return new /mob/living/simple_animal/hostile/asteroid/hivelord/legion/snow(H.loc)
@@ -465,45 +476,9 @@
 	loot = list(/obj/item/stack/sheet/mineral/snow)
 	deathpop = FALSE
 
-/obj/effect/mob_spawn/human/corpse/damaged/legioninfested/permafrost/Initialize() // APOC EDIT START
-	. = ..()
-	var/type = pickweight(list("Police" = 25, pick(list("Ciz1", "Ciz2", "Ciz3", "Ciz4")) = 75))
-	switch(type)
-		if("EndronSci")
-			uniform = /obj/item/clothing/under/pentex/pentex_turtleneck
-			suit = /obj/item/clothing/suit/vampire/labcoat
-			gloves = /obj/item/clothing/gloves/vampire/latex
-			shoes = /obj/item/clothing/shoes/vampire
-			l_pocket = /obj/item/vamp/phone
-		if("EndronSec")
-			shoes = /obj/item/clothing/shoes/vampire/jackboots
-			uniform = /obj/item/clothing/under/pentex/pentex_turtleneck
-			r_pocket = /obj/item/stack/dollar/rand
-			gloves = /obj/item/clothing/gloves/vampire/work
-			suit = /obj/item/clothing/suit/vampire/vest
-			glasses = /obj/item/clothing/glasses/vampire/sun
-			head = /obj/item/clothing/head/beret/black
-			mask = /obj/item/clothing/mask/vampire/balaclava
-		if("Garou")
-			id = /obj/item/card/id/garou/glade/guardian
-			uniform =  /obj/item/clothing/under/vampire/biker
-			shoes = /obj/item/clothing/shoes/vampire/jackboots
-			head = /obj/item/clothing/head/vampire/baseballcap
-			belt = /obj/item/melee/classic_baton/vampire
-			gloves = /obj/item/clothing/gloves/vampire/leather
-			suit = /obj/item/clothing/suit/vampire/jacket
-		if("Police")
-			shoes = /obj/item/clothing/shoes/vampire/jackboots
-			uniform = /obj/item/clothing/under/vampire/police
-			head = /obj/item/clothing/head/vampire/police
-			suit = /obj/item/clothing/suit/vampire/vest/police
-			r_pocket = /obj/item/stack/dollar/rand
-		if("Ciz1")
-			outfit = /datum/outfit/civillian1
-		if("Ciz2")
-			outfit = /datum/outfit/civillian2
-		if("Ciz3")
-			outfit = /datum/outfit/civillian3
-		if("Ciz4")
-			outfit = /datum/outfit/civillian4
- // APOC EDIT END
+/obj/effect/mob_spawn/human/corpse/damaged/legioninfested/permafrost
+	endronscichance = 1
+	endronsecchance = 1
+	garouchance = 1
+	policechance = 25
+	civchance = 72

@@ -923,6 +923,10 @@
 	},
 /turf/open/floor/plating/parquetry/old,
 /area/vtm/interior/coffee)
+"aBz" = (
+/obj/transfer_point_vamp/eternal_winter/two,
+/turf/open/floor/plating/asphalt,
+/area/vtm/voivodate)
 "aBC" = (
 /obj/effect/turf_decal/siding/white,
 /obj/structure/vampdoor/simple{
@@ -5957,6 +5961,10 @@
 /obj/structure/vampdoor/glass/pentex,
 /turf/open/floor/plating/vampplating,
 /area/vtm/interior/endron_facility/restricted)
+"dns" = (
+/obj/transfer_point_vamp/eternal_winter/four,
+/turf/open/floor/plating/sidewalk/old,
+/area/vtm/voivodate)
 "dnZ" = (
 /obj/transfer_point_vamp/voivodate,
 /turf/open/floor/plating/asphalt,
@@ -21291,7 +21299,8 @@
 /obj/effect/turf_decal/bordur{
 	dir = 4
 	},
-/turf/closed/indestructible/the_matrix,
+/obj/transfer_point_vamp/eternal_winter/three,
+/turf/open/floor/plating/asphalt,
 /area/vtm/voivodate)
 "lLc" = (
 /obj/structure/closet/crate/bin/undense{
@@ -25523,6 +25532,10 @@
 	},
 /turf/open/floor/plating/parquetry/old,
 /area/vtm/interior/gang)
+"nYU" = (
+/obj/transfer_point_vamp/eternal_winter,
+/turf/open/floor/plating/sidewalk/old,
+/area/vtm/voivodate)
 "nYX" = (
 /obj/structure/table,
 /turf/open/floor/carpet,
@@ -41436,7 +41449,8 @@
 /obj/effect/turf_decal/bordur{
 	dir = 8
 	},
-/turf/closed/indestructible/the_matrix,
+/obj/transfer_point_vamp/eternal_winter/one,
+/turf/open/floor/plating/asphalt,
 /area/vtm/voivodate)
 "wsP" = (
 /obj/structure/vampdoor/wood/apartment{
@@ -107308,7 +107322,7 @@ oFp
 oFp
 wrk
 dlS
-eMS
+nYU
 uCn
 uCn
 uCn
@@ -107522,7 +107536,7 @@ oFp
 oFp
 wrk
 dlS
-eMS
+aBz
 oPo
 oPo
 oPo
@@ -107736,7 +107750,7 @@ oFp
 oFp
 wrk
 dlS
-eMS
+dns
 uCn
 uCn
 uCn
