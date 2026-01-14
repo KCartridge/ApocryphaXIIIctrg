@@ -21,14 +21,20 @@
 	dir = 1;
 	color = null
 	},
+/obj/item/storage/firstaid/regular,
 /turf/open/floor/carpet/vamp/redsilver,
 /area/vtm/eternal_winter/interior)
 "bg" = (
 /obj/machinery/light/prince{
-	dir = 1
+	dir = 1;
+	bulb_emergency_brightness_mul = 0
 	},
 /turf/closed/wall/vampwall/snowrock,
 /area/vtm/eternal_winter/interior)
+"bi" = (
+/obj/effect/mine/explosive,
+/turf/open/floor/plating/vampsnow,
+/area/vtm/eternal_winter/interior/cave)
 "bu" = (
 /obj/structure/dresser,
 /obj/structure/mirror/directional/north,
@@ -47,10 +53,16 @@
 "bw" = (
 /obj/machinery/light/prince{
 	dir = 4;
-	brightness = 3
+	brightness = 3;
+	bulb_emergency_brightness_mul = 0
 	},
+/obj/structure/man_crystal,
 /turf/open/floor/plating/sidewalk/vampsnow,
 /area/vtm/eternal_winter)
+"bB" = (
+/obj/item/storage/firstaid/tactical,
+/turf/open/floor/plating/stone,
+/area/vtm/eternal_winter/interior/cave)
 "bT" = (
 /obj/effect/turf_decal/bordur/corner/snow{
 	dir = 1
@@ -63,12 +75,24 @@
 	},
 /turf/open/floor/plating/sidewalk/vampsnow,
 /area/vtm/eternal_winter)
+"bY" = (
+/obj/item/storage/firstaid/advanced,
+/turf/open/floor/plating/stone,
+/area/vtm/eternal_winter/interior/cave)
 "cf" = (
 /obj/machinery/light/prince{
-	dir = 8
+	dir = 8;
+	bulb_emergency_brightness_mul = 0
 	},
 /turf/open/floor/plating/sidewalk/vampsnow,
 /area/vtm/eternal_winter/interior)
+"ck" = (
+/obj/item/flashlight/lantern{
+	on = 14;
+	light_on = 1
+	},
+/turf/open/floor/plating/stone,
+/area/vtm/eternal_winter/interior/cave)
 "ct" = (
 /obj/effect/turf_decal/bordur/corner/snow,
 /obj/effect/turf_decal/bordur/snow{
@@ -119,17 +143,6 @@
 	},
 /turf/open/floor/plating/sidewalk/vampsnow,
 /area/vtm/eternal_winter)
-"cT" = (
-/obj/item/reagent_containers/glass/rag{
-	pixel_y = 8;
-	pixel_x = 6
-	},
-/obj/item/reagent_containers/food/drinks/shaker{
-	pixel_x = -11;
-	pixel_y = 3
-	},
-/turf/closed/wall/vampwall/old/low,
-/area/vtm/eternal_winter/interior)
 "cX" = (
 /turf/open/floor/plating/vampsnowphalt,
 /area/vtm/eternal_winter)
@@ -182,6 +195,13 @@
 /obj/structure/vampdoor/wood,
 /turf/open/floor/plating/sidewalk/vampsnow,
 /area/vtm/eternal_winter)
+"dZ" = (
+/obj/effect/turf_decal/bordur/snow{
+	dir = 8
+	},
+/obj/transfer_point_vamp/eternal_winter/one,
+/turf/open/floor/plating/vampsnowphalt,
+/area/vtm/eternal_winter)
 "ed" = (
 /obj/vampire_car/police,
 /turf/open/floor/plating/sidewalk/vampsnow,
@@ -205,19 +225,26 @@
 	dir = 1
 	},
 /area/vtm/eternal_winter/interior)
+"eC" = (
+/obj/effect/mob_spawn/human/corpse/damaged/legioninfested/permafrost,
+/turf/open/floor/plating/vampsnow,
+/area/vtm/eternal_winter/interior)
+"eD" = (
+/obj/structure/table/wood,
+/obj/item/food/spaghetti/chowmein{
+	pixel_y = 6
+	},
+/turf/open/floor/plating/stone,
+/area/vtm/eternal_winter/interior/cave)
 "eW" = (
 /obj/structure/spawner/mining/snow_guys,
 /turf/open/floor/plating/vampsnow,
 /area/vtm/eternal_winter)
-"eZ" = (
-/obj/effect/turf_decal/bordur/corner/snow,
-/obj/structure/lamppost/sidewalk,
-/turf/open/floor/plating/sidewalk/vampsnow,
-/area/vtm/eternal_winter)
 "fl" = (
 /obj/structure/closet/crate/freezer/fridge,
 /obj/machinery/light/prince{
-	pixel_y = 32
+	pixel_y = 32;
+	bulb_emergency_brightness_mul = null
 	},
 /turf/open/floor/plating/sidewalk/vampsnow,
 /area/vtm/eternal_winter)
@@ -248,8 +275,15 @@
 	},
 /turf/open/floor/plating/vampsnow,
 /area/vtm/eternal_winter)
+"fY" = (
+/obj/effect/turf_decal/bordur/snow{
+	dir = 1
+	},
+/obj/effect/mob_spawn/human/corpse/damaged/legioninfested/permafrost,
+/turf/open/floor/plating/vampsnowphalt,
+/area/vtm/eternal_winter)
 "gb" = (
-/turf/cordon,
+/turf/cordon/secret,
 /area/misc/cordon)
 "ge" = (
 /obj/effect/turf_decal/bordur/snow{
@@ -294,11 +328,10 @@
 	pixel_y = 13;
 	pixel_x = 16
 	},
+/obj/item/stack/dollar/thousand,
+/obj/item/stack/dollar/thousand,
 /turf/open/floor/plating/sidewalk/vampsnow,
 /area/vtm/eternal_winter)
-"gU" = (
-/turf/open/floor/plating/vampsnow,
-/area/space)
 "gV" = (
 /obj/effect/turf_decal/bordur/snow{
 	dir = 8
@@ -320,7 +353,8 @@
 	dir = 1
 	},
 /obj/machinery/light/prince{
-	dir = 8
+	dir = 8;
+	bulb_emergency_brightness_mul = 0
 	},
 /turf/open/floor/plating/sidewalk/vampsnow,
 /area/vtm/eternal_winter)
@@ -336,7 +370,8 @@
 	color = null
 	},
 /obj/machinery/light/prince{
-	dir = 8
+	dir = 8;
+	bulb_emergency_brightness_mul = 0
 	},
 /turf/open/floor/plating/vampsnow,
 /area/vtm/eternal_winter)
@@ -345,8 +380,13 @@
 /obj/effect/turf_decal/bordur/snow{
 	dir = 5
 	},
+/obj/item/storage/fancy/hardcase/mp5,
 /turf/open/floor/plating/sidewalk/vampsnow,
 /area/vtm/eternal_winter/interior)
+"hs" = (
+/obj/effect/mapping_helpers/viewport_helper/transparent,
+/turf/open/floor/plating/vampsnow,
+/area/vtm/eternal_winter/interior/cave)
 "hu" = (
 /obj/effect/turf_decal/siding/wideplating/dark{
 	dir = 8;
@@ -365,6 +405,7 @@
 /area/vtm/eternal_winter/interior)
 "hD" = (
 /obj/effect/turf_decal/bordur/corner/snow,
+/obj/effect/mob_spawn/human/corpse/damaged/legioninfested/permafrost,
 /turf/open/floor/plating/vampsnowphalt,
 /area/vtm/eternal_winter)
 "hE" = (
@@ -378,6 +419,10 @@
 	},
 /turf/open/floor/carpet/vamp/redsilver,
 /area/vtm/eternal_winter/interior)
+"hU" = (
+/obj/transfer_point_vamp/eternal_winter/four,
+/turf/open/floor/plating/sidewalk/vampsnow,
+/area/vtm/eternal_winter)
 "hZ" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 1;
@@ -457,7 +502,8 @@
 /area/vtm/eternal_winter)
 "jf" = (
 /obj/machinery/light/prince{
-	dir = 4
+	dir = 4;
+	bulb_emergency_brightness_mul = 0
 	},
 /obj/effect/turf_decal/siding/wideplating/dark{
 	color = null
@@ -478,6 +524,10 @@
 	icon_state = "basin";
 	pixel_x = -7
 	},
+/obj/item/ammo_box/vampire/c12g/buck{
+	pixel_x = 5;
+	pixel_y = 5
+	},
 /turf/closed/wall/vampwall/old/low,
 /area/vtm/eternal_winter)
 "jz" = (
@@ -493,6 +543,13 @@
 	},
 /turf/open/floor/plating/vampsnow,
 /area/vtm/eternal_winter)
+"jH" = (
+/obj/item/gun/ballistic/automatic/vampire/ar15{
+	pixel_x = -3;
+	pixel_y = 10
+	},
+/turf/open/floor/plating/stone,
+/area/vtm/eternal_winter/interior/cave)
 "jM" = (
 /obj/structure/closet/cabinet,
 /obj/item/melee/vampirearms/machete{
@@ -503,6 +560,8 @@
 	pixel_x = 8;
 	pixel_y = 6
 	},
+/obj/item/gun/ballistic/automatic/vampire/ar15,
+/obj/item/storage/fancy/hardcase,
 /turf/open/floor/plating/sidewalk/vampsnow,
 /area/vtm/eternal_winter)
 "jR" = (
@@ -523,6 +582,13 @@
 /obj/effect/turf_decal/bordur/corner/snow,
 /turf/open/floor/plating/vampsnow,
 /area/vtm/eternal_winter)
+"kh" = (
+/obj/effect/turf_decal/siding/wood{
+	color = null
+	},
+/obj/effect/mob_spawn/human/corpse/damaged/legioninfested/permafrost,
+/turf/open/floor/plating/vampsnow,
+/area/vtm/eternal_winter)
 "ky" = (
 /obj/effect/turf_decal/bordur/snow{
 	dir = 4
@@ -532,6 +598,13 @@
 	},
 /turf/open/floor/plating/sidewalk/vampsnow,
 /area/vtm/eternal_winter)
+"kF" = (
+/obj/item/storage/firstaid{
+	pixel_x = -6;
+	pixel_y = 12
+	},
+/turf/open/floor/plating/stone,
+/area/vtm/eternal_winter/interior/cave)
 "kU" = (
 /obj/structure/railing{
 	dir = 6;
@@ -560,6 +633,12 @@
 /obj/structure/chair/sofa/bench,
 /turf/open/floor/plating/vampsnow,
 /area/vtm/eternal_winter)
+"lC" = (
+/obj/item/restraints/legcuffs/beartrap{
+	armed = 1
+	},
+/turf/open/floor/plating/sidewalk/vampsnow,
+/area/vtm/eternal_winter/interior)
 "lQ" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 6
@@ -671,9 +750,24 @@
 	},
 /turf/open/floor/plating/ice,
 /area/vtm/eternal_winter)
+"nG" = (
+/obj/item/gun/ballistic/automatic/vampire/PSG1{
+	pixel_x = -5;
+	pixel_y = 2
+	},
+/obj/item/ammo_box/magazine/vamp762x51PSG1{
+	pixel_x = 3;
+	pixel_y = -7
+	},
+/turf/open/floor/plating/stone,
+/area/vtm/eternal_winter/interior/cave)
 "nI" = (
 /turf/open/floor/plating/vampplating/stairs/right,
 /area/vtm/eternal_winter)
+"nM" = (
+/obj/structure/roadblock,
+/turf/open/floor/plating/vampsnow,
+/area/vtm/eternal_winter/interior/cave)
 "nQ" = (
 /obj/structure/table/wood/fancy/royalblack,
 /obj/effect/turf_decal/bordur/snow{
@@ -681,16 +775,14 @@
 	},
 /turf/open/floor/plating/sidewalk/vampsnow,
 /area/vtm/eternal_winter/interior)
-"oa" = (
-/obj/structure/chair/wood/wings{
+"ob" = (
+/obj/effect/turf_decal/siding/wood/corner{
 	dir = 8;
-	pixel_y = 6
+	color = null
 	},
-/turf/open/floor/plating/sidewalk/vampsnow,
-/area/vtm/eternal_winter/interior)
-"ol" = (
-/turf/closed/wall/vampwall/old/low,
-/area/vtm/eternal_winter/interior)
+/obj/effect/mob_spawn/human/corpse/damaged/legioninfested/permafrost,
+/turf/open/floor/plating/vampsnow,
+/area/vtm/eternal_winter)
 "oy" = (
 /obj/structure/chair/sofa/bench/left,
 /turf/open/floor/plating/vampsnow,
@@ -698,6 +790,18 @@
 "oL" = (
 /turf/open/floor/plating/vampplating/stairs,
 /area/vtm/eternal_winter/interior)
+"oX" = (
+/obj/structure/table,
+/obj/item/clothing/suit/vampire/vest/army{
+	pixel_x = 3;
+	pixel_y = 5
+	},
+/obj/item/clothing/head/vampire/army{
+	pixel_x = -1;
+	pixel_y = 2
+	},
+/turf/open/floor/plating/vampsnow,
+/area/vtm/eternal_winter)
 "pf" = (
 /obj/effect/turf_decal/bordur/corner/snow{
 	dir = 4
@@ -715,7 +819,8 @@
 /area/vtm/eternal_winter)
 "pv" = (
 /obj/machinery/light/prince{
-	pixel_y = 32
+	pixel_y = 32;
+	bulb_emergency_brightness_mul = null
 	},
 /obj/effect/turf_decal/siding/wideplating/dark{
 	dir = 8;
@@ -749,13 +854,6 @@
 	dir = 6
 	},
 /turf/open/floor/plating/vampsnow,
-/area/vtm/eternal_winter)
-"qq" = (
-/obj/structure/lamppost/sidewalk,
-/obj/effect/turf_decal/bordur/corner/snow{
-	dir = 8
-	},
-/turf/open/floor/plating/sidewalk/vampsnow,
 /area/vtm/eternal_winter)
 "qB" = (
 /obj/structure/fluff/hedge,
@@ -792,6 +890,16 @@
 	dir = 1
 	},
 /turf/open/floor/plating/vampsnow,
+/area/vtm/eternal_winter)
+"rb" = (
+/obj/item/restraints/legcuffs/beartrap{
+	armed = 1
+	},
+/turf/open/floor/plating/vampgrass/random/snow,
+/area/vtm/eternal_winter)
+"rg" = (
+/obj/transfer_point_vamp/eternal_winter,
+/turf/open/floor/plating/sidewalk/vampsnow,
 /area/vtm/eternal_winter)
 "rh" = (
 /obj/structure/table,
@@ -864,9 +972,13 @@
 /turf/open/floor/plating/sidewalk/vampsnow,
 /area/vtm/eternal_winter/interior)
 "rU" = (
-/obj/agility_shortcut/anyone,
-/turf/open/space/basic,
-/area/space)
+/obj/agility_shortcut/anyone{
+	desc = "200 million agility experience required. Tell a codesr!";
+	base_timer = 100;
+	id = "eternal_winter_bossroom"
+	},
+/turf/open/floor/plating/vampsnow,
+/area/vtm/eternal_winter/interior/cave)
 "rX" = (
 /obj/effect/turf_decal/siding/wideplating/dark{
 	dir = 8;
@@ -886,7 +998,7 @@
 "sp" = (
 /obj/structure/spawner/mining/snow_guys,
 /turf/open/floor/plating/ice,
-/area/space)
+/area/vtm/eternal_winter/interior/cave)
 "sq" = (
 /obj/effect/turf_decal/bordur/snow{
 	dir = 9
@@ -900,16 +1012,10 @@
 /obj/effect/decal/painting/third,
 /turf/closed/wall/vampwall/snow,
 /area/vtm/eternal_winter/interior)
-"sB" = (
-/obj/structure/lamppost/sidewalk,
-/obj/effect/turf_decal/bordur/corner/snow{
-	dir = 1
-	},
-/turf/open/floor/plating/sidewalk/vampsnow,
-/area/vtm/eternal_winter)
 "sG" = (
 /obj/machinery/light/prince{
-	pixel_y = 32
+	pixel_y = 32;
+	bulb_emergency_brightness_mul = null
 	},
 /obj/effect/turf_decal/siding/wideplating/dark{
 	dir = 4;
@@ -938,9 +1044,12 @@
 /turf/open/floor/plating/sidewalk/vampsnow,
 /area/vtm/eternal_winter/interior)
 "sZ" = (
-/obj/agility_shortcut/anyone,
+/obj/agility_shortcut/anyone{
+	base_timer = 100;
+	id = "eternal_winter_bossroom"
+	},
 /turf/open/floor/plating/vampsnow,
-/area/space)
+/area/vtm/eternal_winter/interior/cave)
 "tq" = (
 /obj/effect/turf_decal/bordur/corner/snow{
 	dir = 1
@@ -949,6 +1058,10 @@
 /obj/structure/railing,
 /turf/open/floor/plating/sidewalk/vampsnow,
 /area/vtm/eternal_winter)
+"tr" = (
+/obj/structure/man_crystal,
+/turf/open/floor/plating/vampsnow,
+/area/vtm/eternal_winter/interior/cave)
 "tw" = (
 /obj/structure/closet/crate/bin{
 	pixel_x = 8
@@ -985,7 +1098,8 @@
 /area/vtm/eternal_winter/interior)
 "tP" = (
 /obj/machinery/light/prince{
-	dir = 1
+	dir = 1;
+	bulb_emergency_brightness_mul = 0
 	},
 /obj/effect/turf_decal/siding/wideplating/dark{
 	dir = 8;
@@ -1055,6 +1169,7 @@
 	icon_state = "basin";
 	pixel_x = 7
 	},
+/obj/structure/table,
 /turf/open/floor/plating/vampsnow,
 /area/vtm/eternal_winter/interior)
 "uU" = (
@@ -1136,6 +1251,10 @@
 /obj/item/bedsheet/black,
 /turf/open/floor/plating/ice,
 /area/vtm/eternal_winter)
+"vd" = (
+/obj/effect/mob_spawn/human/corpse/damaged/legioninfested/permafrost,
+/turf/open/floor/plating/sidewalk/vampsnow,
+/area/vtm/eternal_winter/interior)
 "vl" = (
 /obj/effect/decal/wallpaper/stone/low{
 	pixel_y = 24
@@ -1151,14 +1270,16 @@
 	pixel_y = 17
 	},
 /obj/machinery/light/prince{
-	pixel_y = 32
+	pixel_y = 32;
+	bulb_emergency_brightness_mul = null
 	},
 /turf/open/floor/plating/vampsnow,
 /area/vtm/eternal_winter/interior)
 "vD" = (
 /obj/machinery/light/prince{
 	dir = 4;
-	brightness = 3
+	brightness = 3;
+	bulb_emergency_brightness_mul = 0
 	},
 /obj/structure/closet/crate/freezer/fridge,
 /obj/item/food/cheesewheel,
@@ -1200,7 +1321,8 @@
 	pixel_y = 2
 	},
 /obj/machinery/light/prince{
-	pixel_y = 32
+	pixel_y = 32;
+	bulb_emergency_brightness_mul = null
 	},
 /turf/open/floor/plating/vampsnow,
 /area/vtm/eternal_winter/interior)
@@ -1231,6 +1353,10 @@
 	},
 /turf/open/floor/plating/vampsnow,
 /area/vtm/eternal_winter/interior)
+"wA" = (
+/obj/transfer_point_vamp/eternal_winter/two,
+/turf/open/floor/plating/vampsnowphalt,
+/area/vtm/eternal_winter)
 "wE" = (
 /obj/effect/turf_decal/bordur/corner/snow{
 	dir = 1
@@ -1249,7 +1375,8 @@
 /area/vtm/eternal_winter)
 "wL" = (
 /obj/machinery/light/prince{
-	dir = 1
+	dir = 1;
+	bulb_emergency_brightness_mul = 0
 	},
 /turf/open/floor/plating/sidewalk/vampsnow,
 /area/vtm/eternal_winter/interior)
@@ -1290,10 +1417,33 @@
 "xk" = (
 /mob/living/simple_animal/hostile/megafauna/demonic_frost_miner/eternal_winter,
 /turf/open/floor/plating/ice,
-/area/space)
+/area/vtm/eternal_winter/interior/cave)
 "xq" = (
 /turf/open/floor/plating/ice,
-/area/space)
+/area/vtm/eternal_winter/interior/cave)
+"xv" = (
+/obj/item/reagent_containers/blood/elite{
+	pixel_x = -10;
+	pixel_y = 10
+	},
+/obj/item/reagent_containers/blood/random{
+	pixel_x = -3;
+	pixel_y = -4
+	},
+/obj/item/reagent_containers/blood/random{
+	pixel_x = -12;
+	pixel_y = -9
+	},
+/obj/item/reagent_containers/blood/random{
+	pixel_x = 8;
+	pixel_y = 6
+	},
+/obj/item/reagent_containers/blood/random{
+	pixel_x = 5;
+	pixel_y = -8
+	},
+/turf/open/floor/plating/stone,
+/area/vtm/eternal_winter/interior/cave)
 "xz" = (
 /obj/effect/turf_decal/siding/wideplating/dark{
 	dir = 4;
@@ -1301,6 +1451,10 @@
 	},
 /turf/open/floor/carpet/vamp/redsilver,
 /area/vtm/eternal_winter/interior)
+"xE" = (
+/obj/structure/bonfire/dense,
+/turf/open/floor/plating/stone,
+/area/vtm/eternal_winter/interior/cave)
 "xG" = (
 /obj/structure/railing{
 	dir = 4
@@ -1321,13 +1475,18 @@
 /area/vtm/eternal_winter)
 "xT" = (
 /obj/machinery/light/prince{
-	dir = 1
+	dir = 1;
+	bulb_emergency_brightness_mul = 0
 	},
 /obj/effect/turf_decal/siding/wideplating/dark{
 	dir = 4;
 	color = null
 	},
 /turf/open/floor/plating/sidewalk/vampsnow,
+/area/vtm/eternal_winter/interior)
+"xU" = (
+/obj/structure/man_crystal,
+/turf/open/floor/plating/vampsnow,
 /area/vtm/eternal_winter/interior)
 "xW" = (
 /obj/structure/chair/wood/wings,
@@ -1353,8 +1512,28 @@
 	},
 /turf/open/floor/plating/sidewalk/vampsnow,
 /area/vtm/eternal_winter)
+"yE" = (
+/obj/item/gun/ballistic/automatic/vampire/mp5,
+/turf/open/floor/plating/vampsnow,
+/area/vtm/eternal_winter/interior)
+"yH" = (
+/obj/machinery/light/prince{
+	dir = 4;
+	brightness = 3;
+	bulb_emergency_brightness_mul = 0
+	},
+/turf/open/floor/plating/sidewalk/vampsnow,
+/area/vtm/eternal_winter)
 "yQ" = (
 /obj/structure/table,
+/obj/item/molotov{
+	pixel_x = 4;
+	pixel_y = 5
+	},
+/obj/item/molotov{
+	pixel_x = -6;
+	pixel_y = 5
+	},
 /turf/open/floor/plating/vampsnow,
 /area/vtm/eternal_winter/interior)
 "zm" = (
@@ -1363,6 +1542,15 @@
 	},
 /turf/open/floor/plating/sidewalk/vampsnow,
 /area/vtm/eternal_winter)
+"zv" = (
+/obj/structure/table/wood/fancy/royalblack,
+/obj/effect/turf_decal/siding/wideplating/dark{
+	dir = 1;
+	color = null
+	},
+/obj/item/storage/firstaid/ifak,
+/turf/open/floor/carpet/vamp/redsilver,
+/area/vtm/eternal_winter/interior)
 "zG" = (
 /obj/effect/turf_decal/siding/wideplating/dark{
 	dir = 8;
@@ -1373,6 +1561,13 @@
 	},
 /turf/open/floor/plating/vampsnow,
 /area/vtm/eternal_winter/interior)
+"zL" = (
+/obj/effect/turf_decal/bordur/snow{
+	dir = 4
+	},
+/obj/transfer_point_vamp/eternal_winter/three,
+/turf/open/floor/plating/vampsnowphalt,
+/area/vtm/eternal_winter)
 "zO" = (
 /obj/effect/turf_decal/siding/wood{
 	color = null
@@ -1398,16 +1593,34 @@
 	},
 /turf/open/floor/plating/vampsnow,
 /area/vtm/eternal_winter)
+"Af" = (
+/obj/item/restraints/legcuffs/beartrap{
+	armed = 1
+	},
+/turf/open/floor/plating/sidewalk/vampsnow,
+/area/vtm/eternal_winter)
 "Ag" = (
 /obj/structure/lamppost/sidewalk,
 /turf/open/floor/plating/sidewalk/vampsnow,
 /area/vtm/eternal_winter)
+"Aj" = (
+/obj/effect/turf_decal/siding/wideplating/dark{
+	dir = 4;
+	color = null
+	},
+/obj/effect/mob_spawn/human/corpse/damaged/legioninfested/permafrost,
+/turf/open/floor/plating/sidewalk/vampsnow,
+/area/vtm/eternal_winter/interior)
 "Aw" = (
 /obj/effect/turf_decal/bordur/snow{
 	dir = 4
 	},
 /turf/open/floor/plating/vampsnow,
 /area/vtm/eternal_winter)
+"AC" = (
+/obj/effect/decal/cleanable/blood/gibs/down,
+/turf/open/floor/plating/stone,
+/area/vtm/eternal_winter/interior/cave)
 "AF" = (
 /obj/effect/turf_decal/siding/wood/corner{
 	dir = 8;
@@ -1415,12 +1628,6 @@
 	},
 /turf/open/floor/plating/vampsnow,
 /area/vtm/eternal_winter)
-"AX" = (
-/obj/structure/chair/wood/wings{
-	dir = 1
-	},
-/turf/open/floor/plating/sidewalk/vampsnow,
-/area/vtm/eternal_winter/interior)
 "AZ" = (
 /obj/structure/spawner/mining/snow_guys/difficult,
 /turf/open/floor/plating/sidewalk/vampsnow,
@@ -1440,8 +1647,14 @@
 	},
 /turf/open/floor/plating/vampsnow,
 /area/vtm/eternal_winter)
+"Bw" = (
+/obj/structure/man_crystal,
+/turf/open/floor/plating/ice,
+/area/vtm/eternal_winter)
 "BA" = (
 /obj/structure/closet,
+/obj/item/storage/firstaid/medical,
+/obj/item/storage/firstaid/medical,
 /turf/open/floor/plating/sidewalk/vampsnow,
 /area/vtm/eternal_winter/interior)
 "BG" = (
@@ -1462,7 +1675,8 @@
 /area/vtm/eternal_winter)
 "Cl" = (
 /obj/machinery/light/prince{
-	pixel_y = 32
+	pixel_y = 32;
+	bulb_emergency_brightness_mul = null
 	},
 /obj/machinery/vending/coffee/private,
 /turf/open/floor/plating/vampsnow,
@@ -1486,6 +1700,15 @@
 	dir = 8
 	},
 /area/vtm/eternal_winter)
+"CC" = (
+/obj/structure/closet/crate/freezer,
+/obj/item/food/pizzaslice/square,
+/obj/item/food/pizzaslice/square,
+/obj/item/food/pizzaslice/square,
+/obj/item/food/burger/plain,
+/obj/item/food/burger/plain,
+/turf/open/floor/plating/stone,
+/area/vtm/eternal_winter/interior/cave)
 "CU" = (
 /obj/effect/turf_decal/bordur/corner/snow{
 	dir = 8
@@ -1529,10 +1752,30 @@
 	},
 /turf/open/floor/plating/sidewalk/vampsnow,
 /area/vtm/eternal_winter)
+"Ej" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 1;
+	color = null
+	},
+/obj/structure/man_crystal,
+/turf/open/floor/plating/vampsnow,
+/area/vtm/eternal_winter)
+"Em" = (
+/obj/structure/table/wood/fancy/royalblack,
+/obj/item/stack/dollar/thousand,
+/turf/open/floor/carpet/vamp/redsilver,
+/area/vtm/eternal_winter/interior)
 "EA" = (
 /obj/structure/spawner/mining/snow_guys,
 /turf/open/floor/plating/vampgrass/random/snow/grass,
 /area/vtm/eternal_winter)
+"ED" = (
+/obj/item/storage/firstaid{
+	pixel_x = -3;
+	pixel_y = -1
+	},
+/turf/open/floor/plating/vampsnow,
+/area/vtm/eternal_winter/interior/cave)
 "EQ" = (
 /obj/effect/turf_decal/bordur/corner/snow,
 /obj/effect/turf_decal/bordur/snow{
@@ -1562,7 +1805,8 @@
 /area/vtm/eternal_winter)
 "FM" = (
 /obj/machinery/light/prince{
-	dir = 4
+	dir = 4;
+	bulb_emergency_brightness_mul = 0
 	},
 /turf/open/floor/plating/vampsnow,
 /area/vtm/eternal_winter/interior)
@@ -1570,6 +1814,12 @@
 /obj/structure/lamppost/sidewalk,
 /turf/open/floor/plating/vampsnow,
 /area/vtm/eternal_winter)
+"FW" = (
+/obj/structure/bed/maint,
+/obj/effect/decal/cleanable/blood/gibs,
+/obj/effect/mob_spawn/human/corpse/charredskeleton,
+/turf/open/floor/plating/stone,
+/area/vtm/eternal_winter/interior/cave)
 "FX" = (
 /obj/effect/turf_decal/bordur/snow{
 	dir = 4
@@ -1587,11 +1837,13 @@
 	pixel_y = 10
 	},
 /obj/machinery/light/prince{
-	dir = 8
+	dir = 8;
+	bulb_emergency_brightness_mul = 0
 	},
 /obj/structure/railing{
 	dir = 8
 	},
+/obj/item/storage/fancy/hardcase/mp5,
 /turf/open/floor/plating/vampsnow,
 /area/vtm/eternal_winter/interior)
 "Gg" = (
@@ -1617,10 +1869,14 @@
 /area/vtm/eternal_winter)
 "GE" = (
 /obj/machinery/light/prince{
-	pixel_y = 32
+	pixel_y = 32;
+	bulb_emergency_brightness_mul = null
 	},
 /turf/open/floor/plating/vampsnow,
 /area/vtm/eternal_winter)
+"GI" = (
+/turf/open/floor/plating/stone,
+/area/vtm/eternal_winter/interior/cave)
 "Ha" = (
 /obj/effect/turf_decal/siding/wood{
 	color = null;
@@ -1683,6 +1939,17 @@
 	},
 /turf/open/floor/plating/sidewalk/vampsnow,
 /area/vtm/eternal_winter/interior)
+"IA" = (
+/obj/item/storage/firstaid{
+	pixel_x = 8;
+	pixel_y = -6
+	},
+/obj/item/storage/firstaid/medical{
+	pixel_x = -8;
+	pixel_y = 4
+	},
+/turf/open/floor/plating/stone,
+/area/vtm/eternal_winter/interior/cave)
 "IL" = (
 /obj/effect/turf_decal/bordur/corner/snow,
 /obj/effect/turf_decal/bordur/snow{
@@ -1703,6 +1970,10 @@
 /area/vtm/eternal_winter)
 "Ja" = (
 /turf/closed/wall/vampwall/snow,
+/area/vtm/eternal_winter)
+"Jq" = (
+/obj/effect/mob_spawn/human/corpse/damaged/legioninfested/permafrost,
+/turf/open/floor/plating/vampsnowphalt,
 /area/vtm/eternal_winter)
 "Jv" = (
 /obj/effect/turf_decal/bordur/corner/snow{
@@ -1741,6 +2012,19 @@
 	},
 /turf/open/floor/plating/sidewalk/vampsnow,
 /area/vtm/eternal_winter)
+"JN" = (
+/obj/structure/table/wood,
+/obj/item/food/chocolatebar,
+/obj/item/food/chocolatebar{
+	pixel_x = 3;
+	pixel_y = 6
+	},
+/obj/item/food/chocolatebar{
+	pixel_x = -2;
+	pixel_y = 3
+	},
+/turf/open/floor/plating/stone,
+/area/vtm/eternal_winter/interior/cave)
 "JU" = (
 /obj/effect/turf_decal/bordur/snow{
 	dir = 1
@@ -1753,7 +2037,8 @@
 /area/vtm/eternal_winter)
 "Km" = (
 /obj/machinery/light/prince{
-	pixel_y = 32
+	pixel_y = 32;
+	bulb_emergency_brightness_mul = null
 	},
 /obj/machinery/washing_machine,
 /turf/open/floor/plating/sidewalk/vampsnow,
@@ -1770,7 +2055,8 @@
 	color = null
 	},
 /obj/machinery/light/prince{
-	dir = 8
+	dir = 8;
+	bulb_emergency_brightness_mul = 0
 	},
 /turf/open/floor/plating/vampsnow,
 /area/vtm/eternal_winter)
@@ -1790,7 +2076,8 @@
 /area/vtm/eternal_winter/interior)
 "KK" = (
 /obj/machinery/light/prince{
-	dir = 1
+	dir = 1;
+	bulb_emergency_brightness_mul = 0
 	},
 /turf/open/floor/plating/vampsnow,
 /area/vtm/eternal_winter/interior)
@@ -1855,13 +2142,6 @@
 	},
 /turf/open/floor/plating/vampsnow,
 /area/vtm/eternal_winter)
-"Lr" = (
-/obj/structure/closet/crate/bin{
-	pixel_x = -7;
-	pixel_y = 15
-	},
-/turf/open/floor/plating/sidewalk/vampsnow,
-/area/vtm/eternal_winter/interior)
 "Lu" = (
 /turf/closed/wall/vampwall/snow,
 /area/vtm/eternal_winter/interior)
@@ -1893,6 +2173,11 @@
 /obj/item/food/meat/rawcutlet,
 /turf/open/floor/plating/vampsnow,
 /area/vtm/eternal_winter/interior)
+"LL" = (
+/obj/effect/decal/cleanable/blood/gibs,
+/obj/machinery/iv_drip,
+/turf/open/floor/plating/stone,
+/area/vtm/eternal_winter/interior/cave)
 "LV" = (
 /obj/structure/table,
 /turf/open/floor/plating/vampsnow,
@@ -1937,11 +2222,21 @@
 /obj/effect/turf_decal/bordur/snow,
 /turf/open/floor/plating/sidewalk/vampsnow,
 /area/vtm/eternal_winter)
+"MU" = (
+/obj/item/restraints/legcuffs/beartrap{
+	armed = 1
+	},
+/turf/open/floor/plating/vampgrass/random/snow/grass,
+/area/vtm/eternal_winter)
 "MY" = (
 /turf/open/floor/plating/vampplating/stairs/left{
 	dir = 8
 	},
 /area/vtm/eternal_winter)
+"MZ" = (
+/obj/effect/decal/cleanable/blood/gibs/up,
+/turf/open/floor/plating/stone,
+/area/vtm/eternal_winter/interior/cave)
 "Na" = (
 /obj/effect/turf_decal/siding/wideplating/dark{
 	color = null
@@ -1970,6 +2265,40 @@
 /obj/structure/curtain/bounty,
 /turf/closed/wall/vampwall/snow/low/window/reinforced/snow,
 /area/vtm/eternal_winter/interior)
+"NL" = (
+/obj/effect/turf_decal/bordur/snow{
+	dir = 8
+	},
+/obj/effect/mob_spawn/human/corpse/charredskeleton,
+/turf/open/floor/plating/vampsnowphalt,
+/area/vtm/eternal_winter)
+"NP" = (
+/obj/structure/table/wood,
+/obj/item/gun/ballistic/automatic/vampire/autoshotgun{
+	pixel_x = -13;
+	pixel_y = 8
+	},
+/obj/item/ammo_box/magazine/vampautoshot,
+/obj/item/ammo_box/magazine/vampautoshot{
+	pixel_x = -13
+	},
+/obj/item/ammo_box/magazine/vampautoshot{
+	pixel_x = -32
+	},
+/obj/item/stack/dollar/thousand{
+	pixel_x = 6;
+	pixel_y = 8
+	},
+/obj/item/stack/dollar/thousand{
+	pixel_x = 6;
+	pixel_y = 8
+	},
+/turf/open/floor/plating/sidewalk/vampsnow,
+/area/vtm/eternal_winter)
+"NQ" = (
+/obj/effect/mine/stun,
+/turf/open/floor/plating/stone,
+/area/vtm/eternal_winter/interior/cave)
 "Oe" = (
 /obj/structure/chair/wood/wings{
 	dir = 4
@@ -1982,7 +2311,8 @@
 "Ok" = (
 /obj/machinery/griddle,
 /obj/machinery/light/prince{
-	pixel_y = 32
+	pixel_y = 32;
+	bulb_emergency_brightness_mul = null
 	},
 /obj/item/kitchen/knife,
 /turf/open/floor/plating/vampsnow,
@@ -2025,7 +2355,8 @@
 /area/vtm/eternal_winter/interior)
 "Pr" = (
 /obj/machinery/light/prince{
-	dir = 4
+	dir = 4;
+	bulb_emergency_brightness_mul = 0
 	},
 /obj/structure/railing{
 	dir = 4
@@ -2036,6 +2367,10 @@
 	},
 /turf/open/floor/plating/vampsnow,
 /area/vtm/eternal_winter/interior)
+"PB" = (
+/obj/structure/man_crystal,
+/turf/open/floor/plating/vampsnow,
+/area/vtm/eternal_winter)
 "PT" = (
 /obj/structure/railing{
 	dir = 5;
@@ -2140,8 +2475,19 @@
 	},
 /turf/open/floor/plating/sidewalk/vampsnow,
 /area/vtm/eternal_winter)
+"St" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 1;
+	color = null
+	},
+/obj/structure/spawner/mining/snow_guys/difficult,
+/turf/open/floor/plating/vampsnow,
+/area/vtm/eternal_winter/interior)
 "SA" = (
 /obj/structure/closet/cardboard,
+/obj/item/storage/box/fireworks/dangerous,
+/obj/item/storage/box/fireworks/dangerous,
+/obj/item/storage/box/fireworks/dangerous,
 /turf/open/floor/plating/sidewalk/vampsnow,
 /area/vtm/eternal_winter/interior)
 "SD" = (
@@ -2184,13 +2530,6 @@
 /obj/structure/chair/sofa/bench,
 /turf/open/floor/plating/vampsnow,
 /area/vtm/eternal_winter/interior)
-"Ti" = (
-/obj/effect/turf_decal/bordur/corner/snow{
-	dir = 4
-	},
-/obj/structure/lamppost/sidewalk,
-/turf/open/floor/plating/sidewalk/vampsnow,
-/area/vtm/eternal_winter)
 "Tr" = (
 /turf/open/floor/plating/vampplating/stairs/middle{
 	dir = 1
@@ -2307,7 +2646,8 @@
 	},
 /obj/structure/railing,
 /obj/machinery/light/prince{
-	pixel_y = 32
+	pixel_y = 32;
+	bulb_emergency_brightness_mul = null
 	},
 /turf/open/floor/plating/vampsnow,
 /area/vtm/eternal_winter/interior)
@@ -2327,6 +2667,13 @@
 	dir = 6
 	},
 /turf/open/floor/plating/ice,
+/area/vtm/eternal_winter)
+"VH" = (
+/obj/effect/turf_decal/bordur/snow{
+	dir = 4
+	},
+/obj/effect/mob_spawn/human/corpse/damaged/legioninfested/permafrost,
+/turf/open/floor/plating/vampsnowphalt,
 /area/vtm/eternal_winter)
 "VM" = (
 /obj/effect/turf_decal/bordur/snow{
@@ -2352,6 +2699,12 @@
 /obj/structure/table/wood/fancy/royalblack,
 /turf/open/floor/plating/sidewalk/vampsnow,
 /area/vtm/eternal_winter/interior)
+"VV" = (
+/obj/item/restraints/legcuffs/beartrap{
+	armed = 1
+	},
+/turf/open/floor/plating/vampsnow,
+/area/vtm/eternal_winter)
 "VZ" = (
 /obj/effect/turf_decal/siding/wood{
 	color = null
@@ -2367,7 +2720,14 @@
 /area/vtm/eternal_winter)
 "Wh" = (
 /obj/machinery/light/prince{
-	dir = 8
+	dir = 8;
+	bulb_emergency_brightness_mul = 0
+	},
+/turf/open/floor/plating/vampsnow,
+/area/vtm/eternal_winter/interior)
+"Wn" = (
+/obj/item/restraints/legcuffs/beartrap{
+	armed = 1
 	},
 /turf/open/floor/plating/vampsnow,
 /area/vtm/eternal_winter/interior)
@@ -2375,12 +2735,38 @@
 /obj/item/soap/deluxe,
 /turf/open/floor/plating/sidewalk/vampsnow,
 /area/vtm/eternal_winter)
+"WS" = (
+/obj/item/storage/fancy/hardcase{
+	pixel_x = 10;
+	pixel_y = 1
+	},
+/obj/item/storage/fancy/hardcase{
+	pixel_y = -7
+	},
+/obj/item/storage/fancy/hardcase{
+	pixel_x = 5;
+	pixel_y = 7
+	},
+/turf/open/floor/plating/stone,
+/area/vtm/eternal_winter/interior/cave)
+"WY" = (
+/obj/effect/mine/shrapnel,
+/turf/open/floor/plating/vampsnow,
+/area/vtm/eternal_winter/interior/cave)
 "Xb" = (
 /obj/effect/turf_decal/bordur/snow{
 	dir = 8
 	},
 /turf/open/floor/plating/sidewalk/vampsnow,
 /area/vtm/eternal_winter)
+"Xf" = (
+/obj/effect/turf_decal/siding/wideplating/dark{
+	dir = 1;
+	color = null
+	},
+/obj/effect/mine/stun,
+/turf/open/floor/plating/vampsnow,
+/area/vtm/eternal_winter/interior)
 "Xm" = (
 /obj/effect/turf_decal/bordur/corner/snow,
 /obj/effect/turf_decal/bordur/snow{
@@ -2407,7 +2793,8 @@
 "XI" = (
 /obj/machinery/light/prince{
 	dir = 4;
-	brightness = 3
+	brightness = 3;
+	bulb_emergency_brightness_mul = 0
 	},
 /turf/open/floor/plating/vampsnow,
 /area/vtm/eternal_winter/interior)
@@ -2452,7 +2839,8 @@
 /area/vtm/eternal_winter)
 "Yg" = (
 /obj/machinery/light/prince{
-	pixel_y = 32
+	pixel_y = 32;
+	bulb_emergency_brightness_mul = null
 	},
 /turf/open/floor/plating/sidewalk/vampsnow,
 /area/vtm/eternal_winter)
@@ -2463,6 +2851,10 @@
 /obj/effect/turf_decal/bordur/snow,
 /turf/open/floor/plating/vampsnow,
 /area/vtm/eternal_winter)
+"Yn" = (
+/obj/effect/decal/cleanable/blood/gibs,
+/turf/open/floor/plating/stone,
+/area/vtm/eternal_winter/interior/cave)
 "Yp" = (
 /obj/structure/chair/plastic{
 	dir = 1
@@ -2480,6 +2872,10 @@
 	},
 /turf/open/floor/plating/vampsnowphalt,
 /area/vtm/eternal_winter)
+"Yv" = (
+/obj/effect/mob_spawn/human/corpse/damaged/legioninfested/permafrost,
+/turf/open/floor/plating/vampsnow,
+/area/vtm/eternal_winter)
 "Yz" = (
 /obj/effect/turf_decal/siding/wood{
 	color = null
@@ -2491,7 +2887,8 @@
 /area/vtm/eternal_winter)
 "YZ" = (
 /obj/machinery/light/prince{
-	dir = 8
+	dir = 8;
+	bulb_emergency_brightness_mul = 0
 	},
 /obj/effect/turf_decal/siding/wideplating/dark{
 	color = null
@@ -26064,14 +26461,14 @@ cM
 cM
 cM
 cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
+HW
+HW
+HW
+HW
+HW
+HW
+HW
+HW
 cM
 cM
 cM
@@ -26264,18 +26661,18 @@ cM
 cM
 cM
 cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
+HW
+HW
+HW
+pK
+pK
+pK
+pK
+pK
+Ve
+HW
+HW
+HW
 cM
 cM
 cM
@@ -26464,21 +26861,21 @@ cM
 cM
 cM
 cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
+HW
+HW
+HW
+tr
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+HW
+HW
 cM
 cM
 cM
@@ -26665,23 +27062,23 @@ cM
 cM
 cM
 cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
+HW
+HW
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+HW
+HW
 cM
 cM
 cM
@@ -26867,24 +27264,24 @@ cM
 cM
 cM
 cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
+HW
+Ve
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+HW
+HW
 cM
 cM
 cM
@@ -26946,7 +27343,7 @@ zm
 Xb
 Xb
 Xb
-eZ
+ZF
 Yh
 Yh
 Yh
@@ -27068,25 +27465,25 @@ cM
 cM
 cM
 cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
+RM
+HW
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+ED
+MZ
+GI
+pK
+pK
+pK
+pK
+HW
 cM
 cM
 cM
@@ -27142,7 +27539,7 @@ Ja
 Yh
 Yh
 Yh
-qq
+zm
 Xb
 HM
 Zy
@@ -27269,27 +27666,27 @@ cM
 cM
 cM
 cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
+HW
+HW
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+IA
+kF
+GI
+AC
+pK
+pK
+pK
+pK
+HW
+HW
 cM
 cM
 cM
@@ -27470,28 +27867,28 @@ cM
 cM
 cM
 cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
+HW
+HW
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+nG
+bY
+xE
+Yn
+NQ
+pK
+pK
+pK
+pK
+pK
+HW
 cM
 cM
 cM
@@ -27550,7 +27947,7 @@ xK
 lc
 sl
 sl
-sl
+Bw
 sl
 sl
 rn
@@ -27671,29 +28068,29 @@ cM
 cM
 cM
 cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
+HW
+HW
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+hs
+pK
+WS
+jH
+LL
+xv
+pK
+pK
+pK
+pK
+pK
+pK
+HW
 cM
 cM
 cM
@@ -27873,29 +28270,29 @@ cM
 cM
 cM
 cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
+HW
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+GI
+JN
+FW
+pK
+pK
+pK
+pK
+pK
+pK
+Ve
+HW
 cM
 cM
 cM
@@ -28074,30 +28471,30 @@ cM
 cM
 cM
 cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
+HW
+HW
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+bB
+eD
+ck
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+HW
 cM
 cM
 cM
@@ -28146,10 +28543,10 @@ Pe
 Pe
 Pe
 xW
-HZ
+NP
 Ml
 Ja
-Ln
+Ej
 hc
 Nx
 uz
@@ -28158,11 +28555,11 @@ sl
 sl
 sl
 sl
-sl
+Bw
 rn
 Ta
 Gy
-uN
+PB
 fP
 Yh
 Yh
@@ -28276,31 +28673,31 @@ cM
 cM
 cM
 cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
+HW
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+NQ
+CC
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+HW
+HW
 cM
 cM
 cM
@@ -28432,20 +28829,20 @@ cM
 cM
 cM
 cM
-RM
-RM
-RM
-RM
-RM
-RM
-RM
-RM
-RM
-RM
-RM
-RM
-RM
-RM
+HW
+HW
+HW
+HW
+HW
+HW
+HW
+HW
+HW
+HW
+HW
+HW
+HW
+HW
 cM
 cM
 cM
@@ -28477,32 +28874,32 @@ cM
 cM
 cM
 cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
+HW
+HW
+pK
+pK
+pK
+pK
+pK
+HW
+HW
+HW
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+HW
 cM
 cM
 cM
@@ -28556,7 +28953,7 @@ VZ
 Ln
 fP
 Yh
-sB
+XM
 Zy
 aa
 Xb
@@ -28633,8 +29030,8 @@ cM
 cM
 cM
 cM
-RM
-RM
+HW
+HW
 xq
 xq
 xq
@@ -28647,8 +29044,8 @@ xq
 xq
 xq
 xq
-RM
-RM
+HW
+HW
 cM
 cM
 cM
@@ -28678,33 +29075,33 @@ cM
 cM
 cM
 cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
+HW
+HW
+pK
+pK
+pK
+pK
+pK
+HW
+HW
+HW
+HW
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+HW
 cM
 cM
 cM
@@ -28748,8 +29145,8 @@ gt
 Yh
 Ja
 bu
-bw
-Pe
+yH
+Af
 gj
 Pe
 Pe
@@ -28764,11 +29161,11 @@ XM
 Zy
 Zy
 Zy
-Ti
+lc
 Yh
 Lu
 Km
-Bi
+lC
 BA
 Lu
 mh
@@ -28834,24 +29231,24 @@ cM
 cM
 cM
 cM
-RM
-RM
+HW
+HW
 xq
 xq
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
 xq
 xq
-RM
-RM
+HW
+HW
 cM
 cM
 cM
@@ -28879,35 +29276,35 @@ cM
 cM
 cM
 cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
+HW
+HW
+pK
+pK
+pK
+pK
+pK
+HW
+HW
+HW
+HW
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+HW
+HW
 cM
 cM
 cM
@@ -29035,26 +29432,26 @@ cM
 cM
 cM
 cM
-RM
-RM
+HW
+HW
 xq
 xq
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
 xq
 xq
-RM
-RM
+HW
+HW
 cM
 cM
 cM
@@ -29080,37 +29477,37 @@ cM
 cM
 cM
 cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
+HW
+HW
+pK
+pK
+pK
+pK
+pK
+HW
+HW
+HW
+HW
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+HW
+HW
 cM
 cM
 cM
@@ -29163,7 +29560,7 @@ Ln
 fP
 Yh
 Yh
-Yh
+Ja
 Lu
 mp
 mp
@@ -29236,39 +29633,37 @@ cM
 cM
 cM
 cM
-RM
-RM
+HW
+HW
 xq
 xq
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
 xq
 xq
-RM
-RM
+HW
+HW
 cM
-RM
-RM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
+HW
+HW
+HW
+HW
+HW
+HW
+HW
+HW
 cM
 cM
 cM
@@ -29283,37 +29678,39 @@ cM
 cM
 cM
 cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
+HW
+HW
+pK
+pK
+pK
+pK
+pK
+pK
+HW
+HW
+HW
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+HW
+HW
+HW
+pK
+pK
+pK
+pK
+pK
+pK
+WY
+pK
+pK
+HW
+HW
 cM
 cM
 cM
@@ -29375,7 +29772,7 @@ Zq
 Zq
 FM
 Zq
-Zq
+xU
 jf
 FE
 hz
@@ -29438,30 +29835,41 @@ cM
 cM
 cM
 cM
-RM
+HW
 xq
 xq
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
 xq
 xq
-RM
-RM
-RM
+HW
+HW
+HW
+pK
+pK
+pK
+pK
+pK
+pK
+HW
+HW
+HW
+HW
+HW
 cM
 cM
 cM
@@ -29470,52 +29878,41 @@ cM
 cM
 cM
 cM
+HW
+HW
+HW
+pK
+pK
+pK
+pK
+pK
+pK
+HW
+HW
+HW
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+HW
+HW
 cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
+HW
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+HW
 cM
 cM
 cM
@@ -29640,85 +30037,85 @@ cM
 cM
 cM
 cM
-RM
+HW
 xq
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
 xq
-RM
+HW
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+tr
+HW
+HW
+HW
+HW
+HW
+HW
+HW
+HW
+HW
+HW
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+HW
+HW
+HW
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+HW
+HW
 cM
 cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
+HW
+HW
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+HW
+HW
 cM
 cM
 cM
@@ -29842,86 +30239,86 @@ cM
 cM
 cM
 cM
-RM
+HW
 xq
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
 xq
-RM
+HW
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+tr
+HW
+HW
+HW
+HW
+Ve
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+HW
+HW
 cM
 cM
 cM
 cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
+HW
+Ve
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+HW
+HW
 cM
 cM
 cM
@@ -29974,7 +30371,7 @@ Yh
 Tb
 Uo
 Zq
-Zq
+eC
 NF
 Hh
 ZJ
@@ -30044,86 +30441,86 @@ cM
 cM
 cM
 cM
-RM
+HW
 xq
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
 xq
-RM
+HW
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+HW
+HW
+HW
+HW
+HW
+pK
+pK
+pK
+pK
+pK
+tr
+HW
+HW
+HW
 cM
 cM
 cM
 cM
 cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
+HW
+HW
+HW
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+HW
 cM
 cM
 cM
@@ -30184,7 +30581,7 @@ vl
 Zq
 BG
 KS
-De
+Em
 ip
 hz
 Yh
@@ -30195,7 +30592,7 @@ Yh
 uN
 Yh
 Yh
-Yh
+MU
 JW
 uN
 uN
@@ -30246,29 +30643,87 @@ cM
 cM
 cM
 cM
-RM
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
+HW
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
 xq
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
 xq
-RM
-RM
+HW
+HW
+nM
+nM
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+bi
+pK
+pK
+pK
+pK
+pK
+pK
+HW
+HW
+HW
+HW
+HW
+pK
+pK
+pK
+pK
+pK
+HW
+HW
+HW
+cM
+cM
+cM
+cM
+cM
+cM
+cM
+cM
+cM
+HW
+tr
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+HW
+HW
 cM
 cM
 cM
@@ -30280,64 +30735,6 @@ cM
 cM
 cM
 cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-gb
-gb
-gb
-gb
-gb
-gb
-gb
 cM
 cM
 cM
@@ -30372,11 +30769,11 @@ UH
 UH
 UH
 KO
-AF
+ob
 UH
 UH
 eA
-hZ
+St
 Zq
 Zq
 NF
@@ -30384,7 +30781,7 @@ ww
 oL
 Zq
 Zq
-aY
+zv
 KS
 De
 ip
@@ -30410,7 +30807,7 @@ Nc
 Pe
 MR
 wX
-uN
+VV
 mh
 gb
 cM
@@ -30448,30 +30845,64 @@ cM
 cM
 cM
 cM
-RM
+HW
 sZ
-gU
-gU
-gU
-gU
-gU
-gU
-gU
+pK
+pK
+pK
+pK
+pK
+pK
+pK
 xq
 xk
 xq
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
 xq
-RM
-RM
+HW
+HW
 rU
+nM
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+HW
+HW
+HW
+HW
+HW
+pK
+pK
+pK
+pK
+pK
+pK
+HW
 cM
 cM
 cM
@@ -30483,39 +30914,19 @@ cM
 cM
 cM
 cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
+HW
+HW
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+HW
+HW
 cM
 cM
 cM
@@ -30533,20 +30944,6 @@ cM
 cM
 cM
 gb
-gb
-HW
-HW
-HW
-HW
-HW
-gb
-gb
-cM
-cM
-cM
-cM
-cM
-cM
 gb
 HW
 HW
@@ -30579,7 +30976,7 @@ uN
 uN
 Tr
 hZ
-Zq
+xU
 KK
 sz
 xG
@@ -30650,100 +31047,100 @@ cM
 cM
 cM
 cM
-RM
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
+HW
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
 xq
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
 xq
-RM
-RM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-gb
-gb
 HW
 HW
+nM
+nM
 pK
 pK
 pK
 HW
 HW
-gb
-gb
+HW
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+HW
+HW
+HW
+HW
+HW
+tr
+pK
+pK
+pK
+pK
+pK
+pK
+HW
+cM
+cM
+cM
+cM
+cM
+cM
+cM
+cM
+cM
+cM
+cM
+cM
+HW
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+HW
+HW
+cM
+cM
+cM
+cM
+cM
+cM
+cM
+cM
+cM
+cM
+cM
 cM
 cM
 cM
@@ -30782,7 +31179,7 @@ fU
 OQ
 hZ
 Zq
-Zq
+Wn
 Lj
 oL
 Zq
@@ -30802,7 +31199,7 @@ uN
 uN
 uN
 uN
-uN
+VV
 Yh
 Yh
 jx
@@ -30852,28 +31249,64 @@ cM
 cM
 cM
 cM
-RM
+HW
 xq
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
 xq
-RM
+HW
+pK
+pK
+pK
+pK
+pK
+HW
+HW
+HW
+HW
+HW
+HW
+pK
+pK
+pK
+pK
+Ve
+pK
+pK
+pK
+pK
+pK
+HW
+HW
+HW
+HW
+HW
+Ve
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+HW
+HW
 cM
 cM
 cM
@@ -30886,43 +31319,20 @@ cM
 cM
 cM
 cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
+HW
+HW
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+HW
+HW
 cM
 cM
 cM
@@ -30936,24 +31346,11 @@ cM
 cM
 cM
 gb
-HW
-HW
-pK
-pK
-pK
-pK
-pK
-HW
-HW
-gb
-gb
-cM
-gb
 gb
 HW
 HW
 pK
-pK
+tr
 pK
 pK
 pK
@@ -30978,7 +31375,7 @@ VM
 Xm
 Yh
 Ln
-fP
+kh
 Yh
 Yh
 XR
@@ -30987,11 +31384,11 @@ gu
 tH
 Lu
 FY
-Zq
+xU
 Zq
 Wh
 Zq
-Zq
+eC
 YZ
 FE
 hz
@@ -31054,75 +31451,63 @@ cM
 cM
 cM
 cM
-RM
+HW
 xq
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
 xq
-RM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
+HW
+pK
+pK
+pK
+pK
+HW
+HW
+HW
+HW
+HW
+HW
+HW
+HW
+HW
+HW
+HW
+HW
+HW
+pK
+tr
+pK
+pK
+HW
+HW
+HW
+HW
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+tr
+HW
 cM
 cM
 cM
@@ -31138,17 +31523,29 @@ cM
 cM
 cM
 HW
-HW
-pK
-pK
-pK
 pK
 pK
 pK
 pK
 HW
 HW
-gb
+HW
+pK
+pK
+pK
+pK
+HW
+HW
+cM
+cM
+cM
+cM
+cM
+cM
+cM
+cM
+cM
+cM
 gb
 gb
 HW
@@ -31256,28 +31653,63 @@ cM
 cM
 cM
 cM
-RM
+HW
 xq
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
 xq
-RM
+HW
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+HW
+HW
+HW
+HW
+HW
+HW
+HW
+HW
+HW
+HW
+pK
+pK
+pK
+pK
+HW
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+HW
+HW
 cM
 cM
 cM
@@ -31292,53 +31724,32 @@ cM
 cM
 cM
 cM
+HW
+HW
+pK
+pK
+pK
+pK
+HW
+HW
+HW
+tr
+pK
+pK
+pK
+HW
+HW
 cM
 cM
 cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
+HW
+HW
+HW
+HW
+HW
+HW
+HW
+HW
 HW
 pK
 pK
@@ -31348,21 +31759,7 @@ Ve
 pK
 pK
 pK
-pK
-HW
-HW
-HW
-HW
-HW
-pK
-pK
-pK
-pK
-Ve
-pK
-pK
-pK
-pK
+tr
 HW
 HW
 HW
@@ -31375,7 +31772,7 @@ oy
 uF
 Cu
 sl
-sl
+Bw
 sl
 sl
 sl
@@ -31458,89 +31855,28 @@ cM
 cM
 cM
 cM
-RM
+HW
 xq
 xq
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
 xq
 xq
-RM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
+HW
 pK
 pK
 pK
@@ -31553,6 +31889,13 @@ pK
 pK
 pK
 pK
+HW
+HW
+HW
+HW
+HW
+HW
+HW
 pK
 pK
 pK
@@ -31565,9 +31908,63 @@ pK
 pK
 pK
 pK
+Ve
+HW
+HW
+cM
+cM
+cM
+cM
+cM
+cM
+cM
+cM
+cM
+cM
+cM
+cM
+cM
+cM
+cM
+cM
+HW
 pK
 pK
 pK
+WY
+HW
+HW
+HW
+HW
+pK
+pK
+pK
+pK
+HW
+HW
+HW
+HW
+HW
+pK
+pK
+pK
+pK
+pK
+tr
+pK
+WY
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+WY
 pK
 uN
 Yh
@@ -31588,7 +31985,7 @@ ra
 NF
 Zq
 RC
-Zq
+eC
 Zq
 Zq
 Zq
@@ -31660,89 +32057,29 @@ cM
 cM
 cM
 cM
-RM
-RM
+HW
+HW
 xq
 xq
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
 xq
 xq
-RM
-RM
-RM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
+HW
+HW
+HW
 pK
 pK
 pK
@@ -31763,6 +32100,66 @@ pK
 pK
 pK
 pK
+pK
+pK
+pK
+pK
+pK
+bi
+pK
+pK
+pK
+pK
+HW
+HW
+cM
+cM
+cM
+cM
+cM
+cM
+cM
+cM
+cM
+cM
+cM
+cM
+cM
+cM
+cM
+cM
+cM
+HW
+HW
+pK
+pK
+pK
+pK
+HW
+HW
+HW
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+tr
+pK
+tr
 pK
 pK
 pK
@@ -31863,88 +32260,29 @@ cM
 cM
 cM
 cM
-RM
-RM
+HW
+HW
 xq
 xq
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
 xq
 xq
-RM
-RM
+HW
+HW
 cM
-RM
-RM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
+HW
+HW
 pK
 pK
 pK
@@ -31971,20 +32309,79 @@ pK
 pK
 pK
 pK
+pK
+pK
+HW
+HW
+cM
+cM
+cM
+cM
+cM
+cM
+cM
+cM
+cM
+cM
+cM
+cM
+cM
+cM
+cM
+cM
+cM
+cM
+cM
+HW
+HW
+pK
+pK
+pK
+pK
+HW
+HW
+HW
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+tr
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+WY
 pK
 pK
 Yh
 Yh
 Yh
 Hd
-LV
+oX
 uF
 Cu
 sl
 sl
 sl
 sl
-sl
+Bw
 sl
 wW
 LV
@@ -31993,8 +32390,8 @@ Lu
 vt
 rh
 uO
-Zq
-Zq
+xU
+yE
 tw
 Lu
 ZI
@@ -32066,61 +32463,57 @@ cM
 cM
 cM
 cM
-RM
-RM
+HW
+HW
 xq
 xq
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
 xq
 xq
-RM
-RM
+HW
+HW
 cM
 cM
 cM
-RM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
+HW
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+bi
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+HW
 cM
 cM
 cM
@@ -32142,11 +32535,29 @@ cM
 cM
 cM
 cM
-cM
-cM
-cM
-cM
-cM
+HW
+pK
+pK
+pK
+pK
+HW
+HW
+HW
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+HW
+HW
+pK
+pK
+pK
+HW
+HW
+HW
 HW
 pK
 pK
@@ -32155,21 +32566,7 @@ pK
 Ve
 pK
 pK
-pK
-pK
-HW
-HW
-HW
-HW
-HW
-pK
-pK
-pK
-pK
-Ve
-pK
-pK
-pK
+tr
 pK
 HW
 HW
@@ -32269,8 +32666,8 @@ cM
 cM
 cM
 cM
-RM
-RM
+HW
+HW
 xq
 xq
 xq
@@ -32283,51 +32680,42 @@ xq
 xq
 xq
 xq
-RM
-RM
+HW
+HW
 cM
 cM
 cM
 cM
-RM
-RM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
+HW
+HW
+HW
+tr
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+tr
+HW
+HW
+HW
 cM
 cM
 cM
@@ -32355,12 +32743,21 @@ pK
 pK
 pK
 pK
+HW
+pK
+pK
+pK
 pK
 pK
 pK
 HW
 HW
-gb
+HW
+HW
+pK
+pK
+HW
+HW
 gb
 gb
 HW
@@ -32387,7 +32784,7 @@ SZ
 sl
 sl
 sl
-sl
+Bw
 sl
 sl
 wW
@@ -32397,14 +32794,14 @@ NF
 Zq
 Zq
 Zq
-RC
-Zq
-ol
-Lr
+Ox
+Bi
+Bi
+Bi
 Bi
 wL
 Lu
-Zq
+xU
 Zq
 Zq
 Zq
@@ -32472,20 +32869,20 @@ cM
 cM
 cM
 cM
-RM
-RM
-RM
-RM
-RM
-RM
-RM
-RM
-RM
-RM
-RM
-RM
-RM
-RM
+HW
+HW
+HW
+HW
+HW
+HW
+HW
+HW
+HW
+HW
+HW
+HW
+HW
+HW
 cM
 cM
 cM
@@ -32493,6 +32890,32 @@ cM
 cM
 cM
 cM
+HW
+HW
+HW
+HW
+HW
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+HW
+HW
+HW
+HW
 cM
 cM
 cM
@@ -32517,60 +32940,34 @@ cM
 cM
 cM
 cM
+HW
+HW
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+HW
+HW
+HW
+HW
+HW
+pK
+pK
+pK
+HW
 cM
 cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
+gb
 gb
 HW
 HW
 pK
 pK
-pK
-pK
-pK
-HW
-HW
-gb
-gb
-cM
-gb
-gb
-HW
-HW
-pK
-pK
-pK
+tr
 pK
 pK
 HW
@@ -32599,10 +32996,10 @@ Lu
 Cl
 Mm
 Gg
-Zq
-Zq
-ol
-AX
+Bi
+Bi
+Bi
+Bi
 Bi
 Bi
 Lu
@@ -32699,71 +33096,71 @@ cM
 cM
 cM
 cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-gb
-gb
+HW
+HW
+HW
+HW
+HW
 HW
 HW
 pK
 pK
 pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
 HW
 HW
-gb
-gb
+cM
+cM
+cM
+cM
+cM
+cM
+cM
+cM
+cM
+cM
+cM
+cM
+cM
+cM
+cM
+cM
+cM
+cM
+cM
+cM
+cM
+cM
+cM
+cM
+cM
+cM
+cM
+cM
+HW
+HW
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+HW
 cM
 cM
 cM
@@ -32801,10 +33198,10 @@ Lu
 Lu
 Lu
 Lu
-cT
-ol
-ol
-AX
+Bi
+Bi
+Bi
+Bi
 Bi
 Bi
 Lu
@@ -32907,65 +33304,65 @@ cM
 cM
 cM
 cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-gb
-gb
 HW
 HW
 HW
 HW
+pK
+pK
+Ve
+pK
 HW
-gb
-gb
+HW
+HW
+HW
 cM
+cM
+cM
+cM
+cM
+cM
+cM
+cM
+cM
+cM
+cM
+cM
+cM
+cM
+cM
+cM
+cM
+cM
+cM
+cM
+cM
+cM
+cM
+cM
+cM
+cM
+cM
+cM
+cM
+cM
+HW
+HW
+HW
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+HW
+HW
 cM
 cM
 cM
@@ -33005,7 +33402,7 @@ Bi
 oL
 Bi
 Bi
-oa
+Bi
 Bi
 Bi
 wL
@@ -33013,7 +33410,7 @@ Lu
 sG
 Ix
 Ix
-Ix
+Aj
 Ix
 Ix
 xT
@@ -33112,6 +33509,12 @@ cM
 cM
 cM
 cM
+HW
+HW
+HW
+HW
+HW
+HW
 cM
 cM
 cM
@@ -33147,26 +33550,20 @@ cM
 cM
 cM
 cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-gb
-gb
-gb
-gb
-gb
-gb
-gb
-cM
+HW
+HW
+HW
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+pK
+HW
+HW
 cM
 cM
 cM
@@ -33208,7 +33605,7 @@ UN
 Bi
 Bi
 Bi
-Ox
+Bi
 Bi
 Bi
 Qi
@@ -33218,7 +33615,7 @@ Bi
 Bi
 Bi
 Bi
-zQ
+Xf
 Pj
 uN
 uN
@@ -33229,7 +33626,7 @@ uN
 uN
 uN
 uN
-uN
+Yv
 bX
 Pe
 rJ
@@ -33357,17 +33754,17 @@ cM
 cM
 cM
 cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
+HW
+HW
+HW
+Ve
+pK
+pK
+pK
+pK
+HW
+HW
+HW
 cM
 cM
 cM
@@ -33407,7 +33804,7 @@ Lu
 vQ
 UN
 Bi
-Bi
+vd
 Bi
 Bi
 Bi
@@ -33424,7 +33821,7 @@ zQ
 Pj
 uN
 uN
-uN
+Yv
 uN
 uN
 uN
@@ -33561,13 +33958,13 @@ cM
 cM
 cM
 cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
+HW
+HW
+HW
+HW
+HW
+HW
+HW
 cM
 cM
 cM
@@ -34242,7 +34639,7 @@ uN
 kW
 bX
 Pe
-rJ
+fY
 cX
 Nc
 Pe
@@ -34663,7 +35060,7 @@ wX
 wX
 wX
 wX
-wX
+rb
 wX
 wX
 Pe
@@ -35884,7 +36281,7 @@ Pe
 Pe
 Pe
 Pe
-Pe
+rg
 sK
 gb
 "}
@@ -36066,7 +36463,7 @@ cX
 BL
 gV
 gV
-gV
+NL
 gV
 mn
 gV
@@ -36086,7 +36483,7 @@ gV
 gV
 gV
 gV
-gV
+dZ
 sK
 gb
 "}
@@ -36249,7 +36646,7 @@ wX
 wX
 JW
 wX
-wX
+rb
 wX
 wX
 wX
@@ -36267,7 +36664,7 @@ cX
 cX
 cX
 cX
-cX
+Jq
 cX
 wM
 cX
@@ -36288,7 +36685,7 @@ cX
 cX
 cX
 cX
-sK
+wA
 sK
 gb
 "}
@@ -36442,7 +36839,7 @@ wX
 wX
 wX
 wX
-wX
+rb
 wX
 wX
 wX
@@ -36465,7 +36862,7 @@ wT
 Lb
 Lb
 Lb
-Lb
+VH
 Lb
 Lb
 Lb
@@ -36490,7 +36887,7 @@ Lb
 Lb
 Lb
 Lb
-Lb
+zL
 sK
 gb
 "}
@@ -36692,7 +37089,7 @@ Pe
 Pe
 Pe
 Pe
-Pe
+hU
 sK
 gb
 "}
@@ -36860,7 +37257,7 @@ JW
 wX
 wX
 wX
-wX
+rb
 wX
 wX
 XM
@@ -37256,7 +37653,7 @@ wX
 wX
 wX
 wX
-wX
+rb
 wX
 wX
 wX
@@ -38096,7 +38493,7 @@ wX
 wX
 Pe
 Pe
-wX
+rb
 wX
 wX
 wX

@@ -6416,6 +6416,10 @@
 	},
 /turf/closed/wall/vampwall/bar/low,
 /area/vtm/sewer/nosferatu_town)
+"dCn" = (
+/obj/transfer_point_vamp/eternal_winter/two,
+/turf/open/floor/plating/asphalt,
+/area/vtm/voivodate)
 "dCx" = (
 /obj/machinery/button/door{
 	id = "endron_cells_blast_doors_four"
@@ -21287,6 +21291,13 @@
 /obj/effect/turf_decal/apoc/rough/corner,
 /turf/open/floor/plating/asphalt,
 /area/vtm)
+"lLa" = (
+/obj/effect/turf_decal/bordur{
+	dir = 4
+	},
+/obj/transfer_point_vamp/eternal_winter/three,
+/turf/open/floor/plating/asphalt,
+/area/vtm/voivodate)
 "lLc" = (
 /obj/structure/closet/crate/bin/undense{
 	pixel_x = 7
@@ -27764,6 +27775,10 @@
 /obj/structure/vamptree/pine,
 /turf/open/floor/plating/vampdirt,
 /area/vtm/voivodate)
+"pgd" = (
+/obj/transfer_point_vamp/eternal_winter,
+/turf/open/floor/plating/sidewalk/old,
+/area/vtm/voivodate)
 "pgt" = (
 /obj/item/ammo_box/vampire/c9mm,
 /obj/item/ammo_box/vampire/c9mm,
@@ -31570,6 +31585,10 @@
 	},
 /turf/open/floor/plating/sidewalk/poor,
 /area/vtm/hotel)
+"rdJ" = (
+/obj/transfer_point_vamp/eternal_winter/four,
+/turf/open/floor/plating/sidewalk/old,
+/area/vtm/voivodate)
 "rdV" = (
 /obj/machinery/light/small{
 	pixel_y = 32
@@ -41426,6 +41445,13 @@
 	},
 /turf/open/floor/plating/parquetry/old,
 /area/vtm/interior/chantry)
+"wsK" = (
+/obj/effect/turf_decal/bordur{
+	dir = 8
+	},
+/obj/transfer_point_vamp/eternal_winter/one,
+/turf/open/floor/plating/asphalt,
+/area/vtm/voivodate)
 "wsP" = (
 /obj/structure/vampdoor/wood/apartment{
 	lock_id = "depotapartment_1"
@@ -107296,7 +107322,7 @@ oFp
 oFp
 wrk
 dlS
-uCn
+pgd
 uCn
 uCn
 uCn
@@ -107403,7 +107429,7 @@ oFp
 oFp
 wrk
 dlS
-tMf
+wsK
 tMf
 tMf
 tMf
@@ -107510,7 +107536,7 @@ oFp
 oFp
 wrk
 dlS
-oPo
+dCn
 oPo
 oPo
 oPo
@@ -107617,7 +107643,7 @@ oFp
 oFp
 wrk
 dlS
-uDc
+lLa
 uDc
 uDc
 uDc
@@ -107724,7 +107750,7 @@ oFp
 oFp
 wrk
 dlS
-uCn
+rdJ
 uCn
 uCn
 uCn

@@ -31,7 +31,7 @@
 /obj/effect/spawner/random/ice_guy
 	icon = 'icons/effects/random_spawners.dmi'
 	icon_state = "costume"
-	loot = list(/mob/living/simple_animal/hostile/asteroid/hivelord/legion/snow, /mob/living/simple_animal/hostile/asteroid/ice_demon, /mob/living/simple_animal/hostile/asteroid/lobstrosity)
+	loot = list(/mob/living/simple_animal/hostile/asteroid/wolf/demon, /mob/living/simple_animal/hostile/asteroid/hivelord/legion/snow, /mob/living/simple_animal/hostile/asteroid/ice_demon, /mob/living/simple_animal/hostile/asteroid/lobstrosity)
 
 /mob/living/simple_animal/hostile/asteroid/wolf/demon
 	name = "spirit wolf"
@@ -55,10 +55,10 @@
 /obj/structure/spawner/mining/snow_guys
 	name = "hole"
 	desc = "An inky black hole. Frost spills from it and chills you to the bone."
-	mob_types = list(/mob/living/simple_animal/hostile/asteroid/hivelord/legion/snow, /mob/living/simple_animal/hostile/asteroid/lobstrosity)
+	mob_types = list(/mob/living/simple_animal/hostile/asteroid/wolf/demon, /mob/living/simple_animal/hostile/asteroid/hivelord/legion/snow, /mob/living/simple_animal/hostile/asteroid/lobstrosity)
 
 /obj/structure/spawner/mining/snow_guys/difficult
-	mob_types = list(/mob/living/simple_animal/hostile/asteroid/hivelord/legion/snow, /mob/living/simple_animal/hostile/asteroid/ice_demon, /mob/living/simple_animal/hostile/asteroid/lobstrosity, /mob/living/simple_animal/hostile/asteroid/ice_whelp/eternal_winter)
+	mob_types = list(/mob/living/simple_animal/hostile/asteroid/wolf/demon, /mob/living/simple_animal/hostile/asteroid/hivelord/legion/snow, /mob/living/simple_animal/hostile/asteroid/ice_demon, /mob/living/simple_animal/hostile/asteroid/lobstrosity, /mob/living/simple_animal/hostile/asteroid/ice_whelp/eternal_winter)
 
 /mob/living/simple_animal/hostile/asteroid/ice_whelp/eternal_winter
 	desc = "A draconic something that emits a field of cold."
