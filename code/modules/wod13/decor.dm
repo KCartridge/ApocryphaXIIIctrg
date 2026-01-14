@@ -143,6 +143,13 @@
 	icon_state = "civ"
 	number_of_lamps = 5
 
+/obj/structure/lamppost/sidewalk/winter
+	icon_state = "civ-snow"
+
+/obj/structure/lamppost/sidewalk/winter/Initialize()
+	. = ..()
+	icon_state = "[initial(icon_state)]-snow"
+
 /obj/structure/lamppost/sidewalk/chinese
 	icon_state = "chinese"
 
@@ -1036,6 +1043,13 @@
 	pixel_x = -14
 	pixel_w = -24
 	resistance_flags = INDESTRUCTIBLE | LAVA_PROOF | FIRE_PROOF | UNACIDABLE | ACID_PROOF | FREEZE_PROOF
+
+/obj/structure/vamptree/pine/winter
+	icon_state = "pine1-snow"
+
+/obj/structure/vamptree/pine/winter/Initialize()
+	. = ..()
+	icon_state = "pine[rand(1, 4)]-snow"
 
 /obj/structure/vamptree/pine/Initialize()
 	. = ..()

@@ -1,12 +1,15 @@
 /obj/smite_crystal
 	name = "crystal"
 	desc = "What the hell are you talkin' about? You've added nothing to the conversation- Get in the- Get in the crystal. Sorry, buddy, get in the crystal. HAH hahahahahahaha. We're going to put you in the crystal, you're gonna be in the crystal for a minute; It's gonna feel like one week. It's only one week, man! Some of the people are in the crystal for like, a century, okay? You're going in- the minute is gonna feel like a week so you have some time to think about what you've done. And then you're going to come out of the crystal."
-	icon = 'modular_zapoc/modules/apoc_decor/icons/man_crystal.dmi'
-	icon_state = "crystal"
+	icon = 'icons/effects/64x64.dmi'
+	icon_state = "curse"
 	pixel_x = -16
 	pixel_y = -16
 	color = "#ba52ba"
 
+/obj/smite_crystal/Initialize(mapload)
+	. = ..()
+	add_overlay(image(icon='modular_zapoc/modules/apoc_decor/icons/man_crystal.dmi',icon_state="crystal", pixel_x = 16, pixel_y = 16))
 
 /// To be deployed after typos and blunders.
 /datum/smite/crystal
