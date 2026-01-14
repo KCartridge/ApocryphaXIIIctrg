@@ -1373,7 +1373,7 @@
 /obj/effect/turf_decal/bordur/snow{
 	dir = 9
 	},
-/obj/structure/lamppost/sidewalk,
+/obj/structure/lamppost/sidewalk/winter,
 /turf/open/floor/plating/sidewalk/vampsnow,
 /area/vtm/eternal_winter)
 "we" = (
@@ -1413,7 +1413,7 @@
 /obj/effect/turf_decal/bordur/snow{
 	dir = 10
 	},
-/obj/structure/lamppost/sidewalk,
+/obj/structure/lamppost/sidewalk/winter,
 /turf/open/floor/plating/sidewalk/vampsnow,
 /area/vtm/eternal_winter)
 "wK" = (
@@ -1541,7 +1541,7 @@
 /turf/open/floor/plating/sidewalk/vampsnow,
 /area/vtm/eternal_winter/interior)
 "yl" = (
-/obj/structure/lamppost/sidewalk,
+/obj/structure/lamppost/sidewalk/winter,
 /obj/effect/turf_decal/bordur/corner/snow{
 	dir = 8
 	},
@@ -1645,7 +1645,7 @@
 /turf/open/floor/plating/sidewalk/vampsnow,
 /area/vtm/eternal_winter)
 "Ag" = (
-/obj/structure/lamppost/sidewalk,
+/obj/structure/lamppost/sidewalk/winter,
 /turf/open/floor/plating/sidewalk/vampsnow,
 /area/vtm/eternal_winter)
 "Aj" = (
@@ -1766,7 +1766,7 @@
 /obj/effect/turf_decal/bordur/snow{
 	dir = 6
 	},
-/obj/structure/lamppost/sidewalk,
+/obj/structure/lamppost/sidewalk/winter,
 /turf/open/floor/plating/sidewalk/vampsnow,
 /area/vtm/eternal_winter)
 "De" = (
@@ -1858,7 +1858,7 @@
 /turf/open/floor/plating/vampsnow,
 /area/vtm/eternal_winter/interior)
 "FQ" = (
-/obj/structure/lamppost/sidewalk,
+/obj/structure/lamppost/sidewalk/winter,
 /turf/open/floor/plating/vampsnow,
 /area/vtm/eternal_winter)
 "FW" = (
@@ -2073,7 +2073,7 @@
 /turf/open/floor/plating/vampsnow,
 /area/vtm/eternal_winter)
 "JW" = (
-/obj/structure/vamptree/pine,
+/obj/structure/vamptree/pine/winter,
 /turf/open/floor/plating/vampsnow,
 /area/vtm/eternal_winter)
 "Km" = (
@@ -2447,7 +2447,7 @@
 /turf/open/floor/plating/sidewalk/vampsnow,
 /area/vtm/eternal_winter)
 "Qy" = (
-/obj/structure/lamppost/sidewalk,
+/obj/structure/lamppost/sidewalk/winter,
 /obj/effect/turf_decal/bordur/corner/snow{
 	dir = 1
 	},
@@ -2822,7 +2822,7 @@
 /obj/effect/turf_decal/bordur/snow{
 	dir = 5
 	},
-/obj/structure/lamppost/sidewalk,
+/obj/structure/lamppost/sidewalk/winter,
 /turf/open/floor/plating/sidewalk/vampsnow,
 /area/vtm/eternal_winter)
 "Xu" = (

@@ -28754,7 +28754,6 @@
 	pixel_y = 32
 	},
 /obj/structure/lattice/pentex,
-/obj/structure/lattice/pentex,
 /turf/open/floor/plating/vampplating,
 /area/vtm/interior/millennium_tower/f4)
 "pGH" = (
