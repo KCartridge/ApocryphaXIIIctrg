@@ -402,6 +402,13 @@
 /obj/item/storage/fancy/hardcase/mp5,
 /turf/open/floor/plating/sidewalk/vampsnow,
 /area/vtm/eternal_winter/interior)
+"hl" = (
+/obj/effect/turf_decal/bordur/snow{
+	dir = 4
+	},
+/obj/transfer_point_vamp/eternal_winter/three,
+/turf/open/floor/plating/vampsnowphalt,
+/area/vtm/eternal_winter)
 "hs" = (
 /obj/item/flashlight/lantern{
 	on = 14;
@@ -651,6 +658,10 @@
 	},
 /turf/open/floor/plating/sidewalk/vampsnow,
 /area/vtm/eternal_winter)
+"lf" = (
+/obj/transfer_point_vamp/eternal_winter,
+/turf/open/floor/plating/sidewalk/vampsnow,
+/area/vtm/eternal_winter)
 "ll" = (
 /obj/machinery/griddle,
 /obj/item/melee/vampirearms/knife,
@@ -848,6 +859,10 @@
 	},
 /turf/open/floor/plating/sidewalk/vampsnow,
 /area/vtm/eternal_winter/interior)
+"py" = (
+/obj/transfer_point_vamp/eternal_winter/four,
+/turf/open/floor/plating/sidewalk/vampsnow,
+/area/vtm/eternal_winter)
 "pC" = (
 /obj/structure/table,
 /turf/open/floor/plating/sidewalk/vampsnow,
@@ -1514,6 +1529,10 @@
 "xW" = (
 /obj/structure/chair/wood/wings,
 /turf/open/floor/plating/sidewalk/vampsnow,
+/area/vtm/eternal_winter)
+"xZ" = (
+/obj/transfer_point_vamp/eternal_winter/two,
+/turf/open/floor/plating/vampsnowphalt,
 /area/vtm/eternal_winter)
 "yc" = (
 /obj/structure/musician/piano{
@@ -2445,6 +2464,13 @@
 	dir = 5
 	},
 /turf/open/floor/plating/vampsnow,
+/area/vtm/eternal_winter)
+"QN" = (
+/obj/effect/turf_decal/bordur/snow{
+	dir = 8
+	},
+/obj/transfer_point_vamp/eternal_winter/one,
+/turf/open/floor/plating/vampsnowphalt,
 /area/vtm/eternal_winter)
 "QP" = (
 /obj/structure/railing{
@@ -12477,7 +12503,7 @@ Pe
 Pe
 Pe
 Pe
-Pe
+lf
 sK
 gb
 "}
@@ -12667,7 +12693,7 @@ gV
 gV
 gV
 gV
-gV
+QN
 sK
 gb
 "}
@@ -12857,7 +12883,7 @@ cX
 cX
 cX
 cX
-cX
+xZ
 sK
 gb
 "}
@@ -13047,7 +13073,7 @@ Lb
 Lb
 Lb
 Lb
-Lb
+hl
 sK
 gb
 "}
@@ -13237,7 +13263,7 @@ Pe
 Pe
 Pe
 Pe
-Pe
+py
 sK
 gb
 "}
