@@ -524,6 +524,7 @@ LOW_WALL_HELPER(vampwall/wood)
 	name = "sidewalk"
 	icon = 'code/modules/wod13/tiles.dmi'
 	icon_state = "border"
+	base_icon_state = "border"
 	mouse_opacity = 0
 
 /obj/effect/turf_decal/bordur/Initialize()
@@ -531,21 +532,24 @@ LOW_WALL_HELPER(vampwall/wood)
 		if(istype(get_area(src), /area/vtm))
 			var/area/vtm/V = get_area(src)
 			if(V.upper)
-				icon_state = "[initial(icon_state)]-snow"
+				icon_state = "[base_icon_state]-snow"
 	. = ..()
 
 /obj/effect/turf_decal/bordur/inverse
 	name = "sidewalk"
 	icon = 'modular_darkpack/modules/decor/icons/decals.dmi'
 	icon_state = "border_inverse"
+	base_icon_state = "border_inverse"
 	mouse_opacity = MOUSE_OPACITY_TRANSPARENT
 
 /obj/effect/turf_decal/bordur/corner
 	icon_state = "border_corner"
+	base_icon_state = "border_corner"
 
 /obj/effect/turf_decal/bordur/corner/inverse
 	icon = 'modular_darkpack/modules/decor/icons/decals.dmi'
 	icon_state = "border_corner_inverse"
+	base_icon_state = "border_corner_inverse"
 
 //OTHER TURFS
 
@@ -1370,3 +1374,70 @@ LOW_WALL_HELPER(vampwall/wood)
 	barefootstep = FOOTSTEP_TROTUAR
 	clawfootstep = FOOTSTEP_HARD_CLAW
 	heavyfootstep = FOOTSTEP_GENERIC_HEAVY
+
+/turf/open/floor/plating/vampsnow // lol
+	gender = PLURAL
+	name = "plating"
+	icon = 'code/modules/wod13/tiles.dmi'
+	icon_state = "snow1"
+	base_icon_state = "snow"
+	flags_1 = NONE
+	attachment_holes = FALSE
+	bullet_bounce_sound = null
+	footstep = FOOTSTEP_SNOW
+	barefootstep = FOOTSTEP_SNOW
+	heavyfootstep = FOOTSTEP_SNOW
+	clawfootstep = FOOTSTEP_HARD_CLAW
+
+/turf/open/floor/plating/vampsnow/Initialize()
+	. = ..()
+	icon_state = "[base_icon_state][rand(1,14)]"
+
+/turf/open/floor/plating/sidewalk/vampsnow // lol
+	gender = PLURAL
+	name = "plating"
+	icon = 'code/modules/wod13/tiles.dmi'
+	icon_state = "snow1"
+	based_icon_state = "snow" // GRRRRRRRRRRRRRRRRRRRR
+	number_of_variations = 14
+	flags_1 = NONE
+	attachment_holes = FALSE
+	bullet_bounce_sound = null
+	footstep = FOOTSTEP_SNOW
+	barefootstep = FOOTSTEP_SNOW
+	heavyfootstep = FOOTSTEP_SNOW
+	clawfootstep = FOOTSTEP_HARD_CLAW
+
+/obj/effect/turf_decal/bordur/snow
+	icon_state = "border-snow"
+
+/obj/effect/turf_decal/bordur/inverse/snow
+	icon_state = "border_inverse-snow"
+
+/obj/effect/turf_decal/bordur/corner/snow
+	icon_state = "border_corner-snow"
+
+/obj/effect/turf_decal/bordur/corner/inverse/snow
+	icon_state = "border_corner_inverse-snow"
+
+/turf/open/floor/plating/vampsnowphalt
+	gender = PLURAL
+	name = "asphalt"
+	icon = 'code/modules/wod13/tiles.dmi'
+	icon_state = "snow_overlay"
+	flags_1 = NONE
+	attachment_holes = FALSE
+	bullet_bounce_sound = null
+	footstep = FOOTSTEP_ASPHALT
+	barefootstep = FOOTSTEP_ASPHALT
+	clawfootstep = FOOTSTEP_HARD_CLAW
+	heavyfootstep = FOOTSTEP_GENERIC_HEAVY
+
+/turf/open/floor/plating/vampsnowphalt/Initialize()
+	. = ..()
+	new /obj/effect/decal/snow_overlay(src)
+	if(prob(25))
+		var/obj/effect/turf_decal/turf_guy = new /obj/effect/turf_decal/asphalt(src)
+		turf_guy.alpha = 25
+		turf_guy.update_appearance()
+	set_light(1, 0.5, "#a4b7ff")

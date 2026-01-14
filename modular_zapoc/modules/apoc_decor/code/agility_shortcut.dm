@@ -20,6 +20,7 @@ GLOBAL_LIST_EMPTY(unallocated_agility_shortcuts)
 	var/allowed_bloodlines
 	var/allowed_tribes
 	var/allowed_jobs
+	var/anyone_can_enter
 
 /obj/agility_shortcut/Initialize() // Evil copypaste of transferpoint code
 	. = ..()
@@ -52,6 +53,9 @@ GLOBAL_LIST_EMPTY(unallocated_agility_shortcuts)
 		to_chat(user, span_warning("No way I'm crawling in there."))
 
 /obj/agility_shortcut/proc/validate_allowance(mob/living/user)
+	if(anyone_can_enter)
+		return TRUE
+
 	if(minimum_athletics && (minimum_athletics > user.get_total_athletics()))
 		return FALSE
 
@@ -91,3 +95,6 @@ GLOBAL_LIST_EMPTY(unallocated_agility_shortcuts)
 	name = "hole"
 	desc = "There are a bunch of bricks missing. Not enough for you to crawl in. Unless you were insane."
 	allowed_tribes = TRIBE_WYRM
+
+/obj/agility_shortcut/anyone
+	anyone_can_enter = TRUE

@@ -998,6 +998,7 @@
 	desc = "Cute and tall flora."
 	icon = 'code/modules/wod13/trees.dmi'
 	icon_state = "tree1"
+	base_icon_state = "tree"
 	plane = GAME_PLANE
 	layer = SPACEVINE_LAYER
 	anchored = TRUE
@@ -1013,7 +1014,10 @@
 		if(istype(get_area(src), /area/vtm))
 			var/area/vtm/V = get_area(src)
 			if(V.upper)
-				icon_state = "[initial(icon_state)][rand(1, 11)]-snow"
+				if(prob(80))
+					icon_state = "[base_icon_state][rand(1, 11)]-snow"
+				else
+					icon_state = "dead[rand(1,3)]"
 
 /obj/structure/vamptree/proc/burnshit()
 	if(!burned)
