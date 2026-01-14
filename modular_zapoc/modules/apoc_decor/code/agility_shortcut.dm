@@ -97,4 +97,5 @@ GLOBAL_LIST_EMPTY(unallocated_agility_shortcuts)
 	allowed_tribes = TRIBE_WYRM
 
 /obj/agility_shortcut/anyone
+	desc = "You could probably fit in there. Want to find out?"
 	anyone_can_enter = TRUE
