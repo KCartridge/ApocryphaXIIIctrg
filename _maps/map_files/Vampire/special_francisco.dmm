@@ -7574,7 +7574,7 @@
 /turf/open/floor/carpet/vamp/cyan,
 /area/vtm/clinic)
 "eiF" = (
-/obj/transfer_point_vamp/eternal_winter/four,
+/obj/the_matrix,
 /turf/open/floor/plating/sidewalk/old,
 /area/vtm/voivodate)
 "eiI" = (
@@ -13752,12 +13752,6 @@
 /obj/effect/decal/cleanable/cardboard,
 /turf/open/floor/plating/concrete,
 /area/vtm/supply)
-"hwi" = (
-/obj/structure/chair/green{
-	dir = 8
-	},
-/turf/open/floor/plating/vampplating/mono,
-/area/vtm/clinic)
 "hwl" = (
 /obj/structure/table/wood,
 /obj/item/toy/cards/deck/tarot,
@@ -13938,6 +13932,9 @@
 "hAH" = (
 /obj/machinery/light{
 	dir = 8
+	},
+/obj/structure/chair/green{
+	dir = 4
 	},
 /turf/open/floor/plating/vampplating/mono,
 /area/vtm/clinic)
@@ -15307,7 +15304,7 @@
 /turf/open/floor/plating/industrial/factory,
 /area/vtm/interior/endron_facility)
 "imL" = (
-/obj/transfer_point_vamp/eternal_winter/two,
+/obj/the_matrix,
 /turf/open/floor/plating/asphalt,
 /area/vtm/voivodate)
 "imR" = (
@@ -18436,12 +18433,6 @@
 	},
 /turf/closed/wall/vampwall/old/low,
 /area/vtm/interior/voivodate)
-"kaS" = (
-/obj/item/paper/fluff{
-	default_raw_text = "I use the shotgun. You know why? Cause the shotgun doesnt miss, and unlike the shitty taser it stops a criminal in their tracks in two hits. Bang, bang, and theyre fucking done. I use four shots just to make damn sure because im not here to coddle a bunch of criminal scum sucking dirtbags. Im there to enforce Cali-fucking-fornian LAW. The shotgun is the superior law enforcement weapon because it stops crime. And it stops crime by reducing the number of criminals roaming the fucking streets."
-	},
-/turf/cordon,
-/area/misc/cordon)
 "kaU" = (
 /obj/effect/turf_decal/bordur/inverse{
 	dir = 4
@@ -24907,7 +24898,7 @@
 /obj/effect/turf_decal/bordur{
 	dir = 8
 	},
-/obj/transfer_point_vamp/eternal_winter/one,
+/obj/the_matrix,
 /turf/open/floor/plating/asphalt,
 /area/vtm/voivodate)
 "nHy" = (
@@ -30892,9 +30883,11 @@
 /turf/open/floor/plating/roofwalk,
 /area/vtm)
 "qNf" = (
-/obj/transfer_point_vamp/eternal_winter,
-/turf/open/floor/plating/sidewalk/old,
-/area/vtm/voivodate)
+/obj/structure/chair/green{
+	dir = 4
+	},
+/turf/open/floor/plating/vampplating/mono,
+/area/vtm/clinic)
 "qNh" = (
 /obj/item/kirbyplants,
 /obj/effect/turf_decal/bordur{
@@ -33215,7 +33208,7 @@
 /obj/effect/turf_decal/bordur{
 	dir = 4
 	},
-/obj/transfer_point_vamp/eternal_winter/three,
+/obj/the_matrix,
 /turf/open/floor/plating/asphalt,
 /area/vtm/voivodate)
 "rWy" = (
@@ -35981,17 +35974,6 @@
 /obj/effect/decal/cleanable/trash,
 /turf/open/floor/plating/sidewalk/old,
 /area/vtm/unionsquare)
-"txg" = (
-/obj/structure/closet/cabinet,
-/obj/item/melee/vampirearms/longsword/keeper{
-	pixel_y = 5
-	},
-/obj/item/storage/belt/vampire/sheathe{
-	pixel_x = 4;
-	pixel_y = 7
-	},
-/turf/open/floor/carpet/royalblack,
-/area/vtm/church/interior/haven)
 "txl" = (
 /obj/effect/turf_decal/bordur/corner,
 /obj/effect/turf_decal/bordur{
@@ -38406,6 +38388,8 @@
 /obj/item/clothing/shoes/singerb,
 /obj/item/clothing/shoes/singery,
 /obj/item/dyespray,
+/obj/item/clothing/shoes/singerr,
+/obj/item/clothing/under/costume/singer/red,
 /turf/open/floor/plating/concrete,
 /area/vtm/sewer)
 "uGh" = (
@@ -48629,7 +48613,7 @@ ofs
 nTH
 ofs
 xPy
-txg
+xZX
 aKa
 aKa
 qcO
@@ -51857,7 +51841,7 @@ wrk
 wrk
 wrk
 wrk
-kaS
+wrk
 wrk
 wrk
 wrk
@@ -68288,7 +68272,7 @@ nlL
 eKn
 eKn
 hAH
-eKn
+qNf
 xLC
 luG
 hGu
@@ -68501,8 +68485,8 @@ qdW
 nlL
 heM
 heM
-hwi
-hwi
+eKn
+eKn
 eKn
 eKn
 hGu
@@ -107321,7 +107305,7 @@ oFp
 oFp
 wrk
 dlS
-qNf
+eiF
 uCn
 uCn
 uCn
